@@ -1,2 +1,13 @@
-# zero-website
-Zero Website
+# Zero Website
+
+Landing page for Zero
+
+## Requirements
+
+Node.js
+
+## Installation
+
+```
+npm install
+```
