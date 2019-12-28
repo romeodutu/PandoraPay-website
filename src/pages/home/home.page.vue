@@ -11,29 +11,29 @@
                 <div class="container">
                     <div class="row gap-y text-center">
 
-                        <div class="col-6 col-lg-3">
+                        <div class="col-12 col-sm-6 col-lg-3">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="100">100</p>
                             <p class="small text-uppercase ls-2">Blocks</p>
                         </div>
 
-                        <div class="col-6 col-lg-3">
+                        <div class="col-12 col-sm-6 col-lg-3">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="250">250</p>
                             <p class="small text-uppercase ls-2">Transactions</p>
                         </div>
 
-                        <div class="col-6 col-lg-3">
+                        <div class="col-12 col-sm-6 col-lg-3">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="330">$330K</p>
                             <p class="small text-uppercase ls-2">Circullation Supply</p>
                         </div>
 
-                        <div class="col-6 col-lg-3">
+                        <div class="col-12 col-sm-6 col-lg-3">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">430</p>
                             <p class="small text-uppercase ls-2">Unique Accounts</p>
                         </div>
 
-                        <div class="col-6 offset-3">
+                        <div class="col-md-12">
 
-                            <p class="small text-uppercase ls-2">
+                            <p class="small text-uppercase ls-2 text-center">
                                 REAL TIME DATA FROM
                                 <a class="btn btn-lg btn-round btn-outline-light mw-200" href="#"> TEST NET Blockchain Explorer</a>
                             </p>
