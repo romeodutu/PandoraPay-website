@@ -13,7 +13,6 @@
                         <p class="lead mt-5 mb-8"> Anonymous payments made easy for average Joe. </p>
 
                         <p class="gap-xy">
-                            <a class="btn btn-lg btn-round btn-outline-light mw-200" href="#">Blockchain Explorer</a>
                             <a class="btn btn-lg btn-round btn-light mw-200" href="#">Web Wallet</a>
                         </p>
                     </div>

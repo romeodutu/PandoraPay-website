@@ -1,6 +1,6 @@
 # Zero Website
 
-Landing page for Zero
+Just the landing page for Zero
 
 ## Requirements
 
@@ -10,4 +10,17 @@ Node.js
 
 ```
 npm install
+```
+
+## Running
+
+```
+npm run dev
+```
+
+## Deploy
+
+```
+npm run build
+npm run start
 ```
