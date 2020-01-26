@@ -22,7 +22,7 @@
                                 <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" alt="Alexandru Ionut Budisteanu" >
                             </a>
                             <h5>Alexandru Ionut Budisteanu</h5>
-                            <small>Founder &amp; CEO</small>
+                            <small>Founder</small>
                             <p>Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name..</p>
                             <br>
                             <div class="social social-brand">

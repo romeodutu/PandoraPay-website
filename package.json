@@ -1,6 +1,10 @@
 {
   "name": "PandoraPay-Landing-Page",
   "description": "PandoraPay project landing page",
+  "keywords": [
+    "PandoraPay",
+    "Landing-Page"
+  ],
   "private": true,
   "scripts": {
     "dev": "node server",
