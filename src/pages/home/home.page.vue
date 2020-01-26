@@ -35,7 +35,7 @@
 
                             <p class="small text-uppercase ls-2 text-center">
                                 REAL TIME DATA FROM
-                                <a class="btn btn-lg btn-round btn-outline-light mw-200" href="#"> TEST NET Blockchain Explorer</a>
+                                <a class="btn btn-lg btn-round btn-outline-light mw-200" :href="config.explorer"> TEST NET Blockchain Explorer</a>
                             </p>
 
                         </div>
@@ -56,7 +56,7 @@
                     <div class="row gap-y align-items-center">
                         <div class="col-md-6 mr-auto">
                             <h2>Anonymous cash for the internet</h2>
-                            <p class="lead">World's First Anonymous Stablecoin</p>
+                            <p class="lead">World's First Anonymous Decentralized Exchange</p>
                             <p>It's fast, private and secure. With {{config.name}}, you are your own bank. You can send money totally anonymously to anyone knowing that others cannot see your balance or track your activity. </p>
                         </div>
 
@@ -187,7 +187,7 @@
                         <div class="col-md-8 mx-auto">
 
                             <h3 class="lead-6 text-white mb-7 fw-2001">Anonymous payments made easy.</h3>
-                            <p><a class="btn btn-xl btn-round btn-success" href="#">Web Wallet</a></p>
+                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">Web Wallet</a></p>
 
                         </div>
                     </div>

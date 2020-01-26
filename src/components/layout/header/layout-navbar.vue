@@ -13,8 +13,8 @@
 
             <section class="navbar-mobile">
                 <nav class="nav nav-navbar ml-auto">
-                    <a class="nav-link" href="#">Block Explorer</a>
-                    <a class="nav-link" href="#">Web Wallet</a>
+                    <a class="nav-link" :href="config.explorer">Block Explorer</a>
+                    <a class="nav-link" :href="config.wallet">Web Wallet</a>
                     <router-link class="nav-link" to="/contact">Contact</router-link>
                 </nav>
             </section>
@@ -24,11 +24,18 @@
 </template>
 
 <script>
+import config from "build/config/config";
 export default {
 
     props:{
         light: false,
     },
+
+    computed:{
+        config(){
+            return config.app;
+        }
+    }
 
 }
 </script>

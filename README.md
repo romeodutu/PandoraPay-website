@@ -28,12 +28,17 @@ npm run start
 
 ## Deploy PM2
 
+install PM2
+```
+npm install pm2 -g
+```
+
 build it
 
 ```
 npm run build
 pm2 start npm -- start
-pm2 restart `processId` --name front
+pm2 restart 'processId' --name front
 ```
 
 new version

@@ -7,10 +7,13 @@ export default {
         logo: "/public/assets/images/pandora-pay-logo",
         image: "/public/assets/images/pandora-cover-image",
         keywords: ["decentralized", "pandora pay", "zero"],
+
+        wallet: "http://pandorapay.ddns.net:8080",
+        explorer: "http://pandorapay.ddns.net:8080/explorer",
     },
 
     consensus: [{
         address: "http://localhost:4000",
-    }]
+    }],
 
 }
