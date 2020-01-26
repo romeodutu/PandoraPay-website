@@ -23,7 +23,7 @@
 
                         <div class="col-12 col-sm-6 col-lg-3">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="330">$330K</p>
-                            <p class="small text-uppercase ls-2">Circullation Supply</p>
+                            <p class="small text-uppercase ls-2">Circulation Supply</p>
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-3">
@@ -234,7 +234,7 @@
 
                         <div class="col-md-6 col-xl-4">
                             <div class="media">
-                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-help"></i></div>
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-lock"></i></div>
                                 <div class="media-body">
                                     <h5>Fungible</h5>
                                     <p>Units of {{config.name}} can not be blacklisted by vendors or exchanges due to their association in previous transactions.</p>
@@ -245,10 +245,10 @@
 
                         <div class="col-md-6 col-xl-4">
                             <div class="media">
-                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-lock"></i></div>
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-money"></i></div>
                                 <div class="media-body">
-                                    <h5>Stable Currency</h5>
-                                    <p>Anonymous digital currencies that anchor the value of national currencies like US dollar, Euro, Yen and bitcoin assets like BTC, ETH.</p>
+                                    <h5>Assets & Currency</h5>
+                                    <p>Anonymous digital currencies that anchor the value of other assets backed by the community.</p>
                                 </div>
                             </div>
                         </div>
@@ -256,10 +256,10 @@
 
                         <div class="col-md-6 col-xl-4">
                             <div class="media">
-                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-money"></i></div>
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-face-smile"></i></div>
                                 <div class="media-body">
-                                    <h5>100% Backend</h5>
-                                    <p>Every single coin is always 100% backed by our reserves.</p>
+                                    <h5>Complete Blinded Escrow</h5>
+                                    <p>Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.</p>
                                 </div>
                             </div>
                         </div>
@@ -269,8 +269,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-search"></i></div>
                                 <div class="media-body">
-                                    <h5>Transparent</h5>
-                                    <p>Our focus is to be 100% transparent with our reserve. The value of our reserves are published daily.</p>
+                                    <h5>Reviews for Traders</h5>
+                                    <p>To increase the trust between traders in an untrusted network, anonymous reviews can be written down.</p>
                                 </div>
                             </div>
                         </div>

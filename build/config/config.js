@@ -1,12 +1,12 @@
 export default {
 
     app: {
-        name: "ZERO",
+        name: "PandoraPay",
         version: "0.1",
-        description: "DESCRIPTION",
-        logo: "/public/assets/images/logo-image",
-        image: "/public/assets/images/cover-image",
-        keywords: ["decentralized","zero"],
+        description: "World's First Anonymous Decentralized P2P Exchange",
+        logo: "/public/assets/images/pandora-pay-logo",
+        image: "/public/assets/images/pandora-cover-image",
+        keywords: ["decentralized", "pandora pay", "zero"],
     },
 
     consensus: [{

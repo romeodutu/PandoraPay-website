@@ -6,8 +6,8 @@
             <div class="navbar-left">
                 <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
                 <router-link class="navbar-brand" to="/">
-                    <img class="logo-dark" src="/public/assets/theme/img/logo-dark.png" alt="logo">
-                    <img class="logo-light" src="/public/assets/theme/img/logo-light.png" alt="logo">
+                    <img class="logo-dark" src="/public/assets/images/pandora-pay-logo-inline.png" alt="logo">
+                    <img class="logo-light" src="/public/assets/images/pandora-pay-logo-inline-white.png" alt="logo">
                 </router-link>
             </div>
 

@@ -5,11 +5,12 @@
         <header class="header text-white h-fullscreen bg-fixed" style="background-image: url(/public/assets/theme/img/vector/9.jpg)">
             <div class="overlay opacity-95" style="background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
             <div class="container text-center">
-                <div class="row align-items-center h-100 pt-8 pt-md-7 pb-md-8">
+                <div class="row align-items-center h-100  pt-md-7 pb-md-8">
 
                     <div class="col-md-8 mx-auto">
 
-                        <h1>World's First Anonymous Stablecoin</h1>
+                        <img src="/public/assets/images/pandora-pay-logo-white-cropped.png">
+                        <h1>World's First Anonymous Exchange</h1>
                         <p class="lead mt-5 mb-8"> Anonymous payments made easy for average Joe. </p>
 
                         <p class="gap-xy">
