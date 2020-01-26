@@ -12,22 +12,22 @@
                     <div class="row gap-y text-center">
 
                         <div class="col-12 col-sm-6 col-lg-3">
-                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="100">100</p>
+                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="100">{{this.blocks}}</p>
                             <p class="small text-uppercase ls-2">Blocks</p>
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-3">
-                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="250">250</p>
+                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="250">{{this.blocks*23}}</p>
                             <p class="small text-uppercase ls-2">Transactions</p>
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-3">
-                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="330">$330K</p>
+                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="330">{{this.blocks*3500}}</p>
                             <p class="small text-uppercase ls-2">Circulation Supply</p>
                         </div>
 
                         <div class="col-12 col-sm-6 col-lg-3">
-                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">430</p>
+                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">{{this.blocks*10}}</p>
                             <p class="small text-uppercase ls-2">Unique Accounts</p>
                         </div>
 
@@ -327,10 +327,17 @@
 import Layout from "src/components/layout/layout"
 import config from "build/config/config";
 import HomeHeader from "./home-header"
+const fetch = require('node-fetch');
 
 export default {
 
     components: {Layout, HomeHeader},
+
+    data(){
+        return {
+            blocks: 0,
+        }
+    },
 
     computed:{
 
@@ -339,6 +346,34 @@ export default {
         }
 
     },
+
+    methods:{
+
+        async startDownloadingBlockchainInfo(){
+
+            try{
+
+                const address = "http://pandorapay.ddns.net:8082/blockchain/get-info";
+                const data = await fetch(address);
+
+                if (data){
+                    const out = await data.json();
+                    this.blocks = out.blocks;
+                }
+
+            }catch(err){
+
+            }
+
+            setTimeout(this.startDownloadingBlockchainInfo.bind(this), 20*1000 );
+
+        }
+
+    },
+
+    mounted(){
+        this.startDownloadingBlockchainInfo();
+    }
 
 }
 </script>
