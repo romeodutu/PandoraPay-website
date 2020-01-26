@@ -247,8 +247,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-money"></i></div>
                                 <div class="media-body">
-                                    <h5>Assets & Currency</h5>
-                                    <p>Anonymous digital currencies that anchor the value of other assets backed by the community.</p>
+                                    <h5>Assets & Currencies</h5>
+                                    <p>Anonymous digital assets & currencies that anchor the value of other assets backed by the community.</p>
                                 </div>
                             </div>
                         </div>
@@ -256,9 +256,9 @@
 
                         <div class="col-md-6 col-xl-4">
                             <div class="media">
-                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-face-smile"></i></div>
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-eye"></i></div>
                                 <div class="media-body">
-                                    <h5>Complete Blinded Escrow</h5>
+                                    <h5>Confidential Blinded Escrow</h5>
                                     <p>Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.</p>
                                 </div>
                             </div>
@@ -267,13 +267,47 @@
 
                         <div class="col-md-6 col-xl-4">
                             <div class="media">
-                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-search"></i></div>
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments-smiley"></i></div>
                                 <div class="media-body">
                                     <h5>Reviews for Traders</h5>
                                     <p>To increase the trust between traders in an untrusted network, anonymous reviews can be written down.</p>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-md-6 col-xl-4">
+                            <div class="media">
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments"></i></div>
+                                <div class="media-body">
+                                    <h5>Encrypted Chat</h5>
+                                    <p>The chat in {{config.name}}  between traders and blinded escrow are encrypted end to end.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-xl-4">
+                            <div class="media">
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-tag"></i></div>
+                                <div class="media-body">
+                                    <h5>No deposit</h5>
+                                    <p>{{config.name}} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-xl-4">
+                            <div class="media">
+                                <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-check-box"></i></div>
+                                <div class="media-body">
+                                    <h5>Instant anonymity & HD Wallets</h5>
+                                    <p>To verify your own encrypted balances it takes only seconds to decrypted your own balances and your previous transactions. More, it has implemented an advanced HD Wallet.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
 
                     </div>
 
