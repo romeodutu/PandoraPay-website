@@ -24,3 +24,21 @@ npm run dev
 npm run build
 npm run start
 ```
+
+
+## Deploy PM2
+
+build it
+
+```
+npm run build
+pm2 start npm -- start
+pm2 restart `processId` --name front
+```
+
+new version
+
+```
+npm run build
+pm2 restart front
+```
