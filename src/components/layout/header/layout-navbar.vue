@@ -13,9 +13,11 @@
 
             <section class="navbar-mobile">
                 <nav class="nav nav-navbar ml-auto">
+                    <router-link class="nav-link" to="/">Home</router-link>
                     <a class="nav-link" :href="config.explorer">Block Explorer</a>
                     <a class="nav-link" :href="config.wallet">Web Wallet</a>
                     <router-link class="nav-link" to="/contact">Contact</router-link>
+                    <router-link class="nav-link" to="/faq">FAQ</router-link>
                 </nav>
             </section>
 

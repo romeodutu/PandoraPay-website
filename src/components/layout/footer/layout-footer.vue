@@ -6,7 +6,7 @@
             <div class="row gap-y">
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Company</strong></h6>
+                    <h6 class="mb-4"><strong>Organization</strong></h6>
                     <div class="nav flex-column">
                         <a class="nav-link" href="#">About us</a>
                         <a class="nav-link" href="#">Contact us</a>
@@ -14,10 +14,11 @@
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Product</strong></h6>
+                    <h6 class="mb-4"><strong>Blockchain</strong></h6>
                     <div class="nav flex-column">
                         <a class="nav-link" href="#">Why {{config.name}}?</a>
                         <a class="nav-link" href="#">Security</a>
+                        <router-link class="nav-link" to="/faq">FAQ</router-link>
                     </div>
                 </div>
 

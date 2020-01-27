@@ -82,23 +82,23 @@
 
 <script>
 
-    import Layout from "src/components/layout/layout"
-    import config from "build/config/config";
+import Layout from "src/components/layout/layout"
+import config from "build/config/config";
 
 
-    export default {
+export default {
 
-        components: {Layout},
+    components: {Layout},
 
-        computed:{
+    computed:{
 
-            config(){
-                return config.app;
-            }
+        config(){
+            return config.app;
+        }
 
-        },
+    },
 
-    }
+}
 </script>
 
 <style scoped>
