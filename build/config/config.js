@@ -11,7 +11,7 @@ module.exports = {
         keywords: ["decentralized", "pandora pay", "zero"],
 
         wallet: "http://pandorapay.org/public/wallet-dist/",
-        explorer: "http://pandorapay.org/public/wallet-dist/explorer",
+        explorer: "http://pandorapay.org/public/wallet-dist/",
     },
 
     consensus: [{
