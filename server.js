@@ -14,7 +14,9 @@ const serverInfo =
   `express/${require('express/package.json').version} ` +
   `vue-server-renderer/${require('vue-server-renderer/package.json').version}`
 
-const app = express()
+const app = express();
+
+const config = require('./build/config/config');
 
 function createRenderer (bundle, options) {
   // https://github.com/vuejs/vue/blob/dev/packages/vue-server-renderer/README.md#why-use-bundlerenderer
@@ -121,7 +123,7 @@ app.get('*', isProd ? render : (req, res) => {
   readyPromise.then(() => render(req, res))
 })
 
-const port = process.env.PORT || 8080
+const port = process.env.PORT || config.port;
 app.listen(port, () => {
   console.log(`server started at localhost:${port}`)
 })

@@ -1,4 +1,6 @@
-export default {
+module.exports = {
+
+    port: 8000,
 
     app: {
         name: "PandoraPay",
