@@ -4,6 +4,7 @@ module.exports = {
 
     app: {
         name: "PandoraPay",
+        title: "PandoraPay - Anonymous Decentralized P2P Exchange",
         version: "0.1",
         description: "World's First Anonymous Decentralized P2P Exchange",
         logo: "/public/assets/images/pandora-pay-logo",

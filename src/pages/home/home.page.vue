@@ -292,6 +292,12 @@
                 </div>
             </section>
 
+            <header class="section-header">
+                <small>FAQ</small>
+                <p>Got a question? We've got answers on <router-link to="/faq">FAQ </router-link>.</p>
+            </header>
+
+
         </main>
 
 

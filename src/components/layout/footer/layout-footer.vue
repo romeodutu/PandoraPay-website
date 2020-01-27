@@ -46,7 +46,7 @@
         <div class="row gap-y">
 
             <div class="col-md-6 text-center text-md-left">
-                <small class="opacity-70">© 2020 {{config.name}}. All rights reserved.</small>
+                <small class="opacity-70">© 2020 {{config.name}}. It is an open source project created by a community.</small>
             </div>
 
 

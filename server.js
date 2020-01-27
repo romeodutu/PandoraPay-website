@@ -101,10 +101,10 @@ function render (req, res) {
 
   //default values
   const context = {
-    title: '',
-    description: '',
-    keywords: '',
-    images: '',
+    title: config.app.title,
+    description: config.app.description,
+    keywords: config.app.keywords,
+    images: `<meta property="og:image" content="${config.app.image}"/>\n` + `<meta property="twitter:image" content="${config.app.image}"/>`,
     url: req.url
   }
   
