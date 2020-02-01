@@ -27,10 +27,18 @@
 
 <script>
 import config from "build/config/config";
+
 export default {
+
+    components: {},
 
     props:{
         light: false,
+    },
+
+    data(){
+        return {
+        };
     },
 
     computed:{

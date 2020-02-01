@@ -292,10 +292,68 @@
                 </div>
             </section>
 
+
             <header class="section-header">
                 <small>FAQ</small>
                 <p>Got a question? We've got answers on <router-link to="/faq">FAQ </router-link>.</p>
             </header>
+
+
+            <section id="section-mission" class="section">
+                <div class="container">
+                    <div class="row gap-y align-items-center">
+
+                        <div class="col-md-7 mx-auto">
+                            <h2>Timeline for PandoraPay Main Net</h2>
+                            <p class="lead">Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code was already been implemented</p>
+
+                            <br>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Data structure</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Networking</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Crypto & RingCT - Ring Confidential Signatures</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Blockchain & Consensus</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Exchange - 50%</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Encrypted Messages</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Completly Blinded Escrow</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Final Tests</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
         </main>
