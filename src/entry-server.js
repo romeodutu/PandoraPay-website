@@ -23,8 +23,6 @@ export default context => {
 
     const {language} = context.cookies || {};
 
-    console.log("language", language);
-
     if (language){
 
       store.commit('SET_LOCALIZATION_SELECTED_LANGUAGE', { language } );

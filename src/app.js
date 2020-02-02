@@ -13,7 +13,7 @@ import {mixin as descriptionMixin} from './util/mixins/description'
 import {mixin as imagesMix} from './util/mixins/images'
 import {mixin as keywordsMixin} from './util/mixins/keywords'
 
-import NetworkHelper from "./util/network-helper"
+import HttpHelper from "./util/http-helper"
 
 import * as filters from './util/filters'
 
@@ -59,7 +59,7 @@ export function createApp () {
     render: h => h(App)
   });
 
-  app.networkHelper = new NetworkHelper(store);
+  app.httpHelper = new HttpHelper(store);
 
   store.$app = app;
 

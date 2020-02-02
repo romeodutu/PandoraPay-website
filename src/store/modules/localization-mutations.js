@@ -34,6 +34,10 @@ export default {
 
     SET_LOCALIZATION_SELECTED_LANGUAGE: (state, {  language }) => {
 
+        if ( ['ro','en'].indexOf(language) < 0){
+            language = 'en';
+        }
+
         state.language = language;
 
         i18n.i18n.locale = language;

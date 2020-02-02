@@ -30,7 +30,9 @@ export  default {
 
         try {
 
-            const res = await this.$app.httpHelper.get("https://geoip-db.com/json/" + ip, undefined,  '', undefined,false);
+            const axios = await this.$app.httpHelper.get("https://geoip-db.com/json/" + ip);
+
+            const res = axios.data;
 
             const payload = {
                 country: res.country_name || '',
@@ -50,17 +52,17 @@ export  default {
             commit('SET_LOCALIZATION_DATA', payload );
 
             if (!state.language)
-                commit('SET_LOCALIZATION_SELECTED_COUNTRY', { language: payload.countryCode } );
+                commit('SET_LOCALIZATION_SELECTED_LANGUAGE', { language: payload.countryCode.toLowerCase() } );
 
         }
         catch(ex){
 
-            console.error("Geo IP rejected ",ex.toString());
+            console.error("Geo IP rejected ",ex);
 
             commit('SET_LOCALIZATION_REQUEST_ERROR',{});
 
             if (!state.language)
-                commit('SET_LOCALIZATION_SELECTED_COUNTRY', { language: 'en' } );
+                commit('SET_LOCALIZATION_SELECTED_LANGUAGE', { language: 'en' } );
 
         }
 

@@ -22,7 +22,7 @@ export default {
             error: false,
         },
 
-        language: 'en',
+        language: '',
 
     },
     actions,
