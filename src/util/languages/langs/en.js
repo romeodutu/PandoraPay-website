@@ -36,6 +36,8 @@ export default {
             nameIsPrivate: `${config.app.name} is private`,
             youOwnYourOwnKey: `You own your own key and nobody can track you.`,
 
+            gotAQuestion: 'Ai intrebari? Noi avem raspunsurile',
+
         },
 
         contact:{
