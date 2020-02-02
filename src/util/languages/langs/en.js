@@ -83,7 +83,6 @@ export default {
 
             gotAQuestion: `Got a question? We've got answers on `,
             gotAQuestionFaq: "FAQ",
-
         },
 
         contact:{
@@ -91,8 +90,36 @@ export default {
         },
 
         faq:{
+            weGotAnswers: `Frequently Asked Questions`,
+            weGotAllTheAnswers: `Got a question? We are here to answer your questions!`,
 
-        }
+            questionTypeOfPaymentAccepted: `What payments will be accepted?`,
+            answerTypeOfPaymentAccepted: `All payments will be accepted except the payments that offer easily chargebacks scamming the sellers. ${config.app.name} is not limited and users can define their own payment methods including: Face-to-Face, National/International Bank Transfers, SEPA, AliPay, WeChat Pay, Revolut, BTC, ETH, WEBD etc. Some payments that facilitate easy chargebacks will be discouraged for low-ranking buyers. One such chargeback payment is PayPal because it is easy to do chargebacks claiming that you didn't receive the products.`,
+
+            questionPeerToPeerExchange: `How does the Peer-to-Peer Exchange work?`,
+            answerPeerToPeerExchange: `A trade is occurred when a buyer acquires from a seller some coins/tokens. The seller will open a trade selling some assets (tokens) and the buyer pays off-chain to acquire these assets (tokens). After the off-chain payment from the buyer is finalized and confirmed, the buyer will get the assets (tokens) from the seller.`,
+
+            questionIsBuyerProtected: `How is the Buyer protected in ${config.app.name} ?`,
+            answerIsBuyerProtected: `The Seller who owns assets and wishes to sell them on the exchange will have to deposit anonymously the assets into a special trade account that is still owned by him. Then the seller sets a blinded escrow to this trade account for trading supervision. Now, the seller can't move funds from the trading account without the permission of the escrow. In case of a dispute the buyer can complain proving that he sent the funds to the seller, but the seller is not willfully sending the funds.`,
+
+            questionCompletelyBlindedEscrow: `What is a Completely Blinded Escrow ?`,
+            answerCompletelyBlindedEscrow: `A Completely Blinded Escrow will NOT know the amount traded, the address of the real trader, and the address of the real trader. He also doesn't have power to move the funds by himself, he is only used to assure that the buyer is not moving funds promised to a seller.`,
+
+            questionIsTradeChatEncrypted: `Are the chat messages encrypted in the trades ?`,
+            answerIsTradeChatEncrypted: `YES! All the chat messages are encrypted peer-to-peer using cryptographic functions.`,
+
+            questionAddressNeedToKnowOnly: `Does the Buyer, Seller, or the Escrow will know each other addresses ?`,
+            answerAddressNeedToKnowOnly: `No! The Buyer will not know the Seller real address. The Seller will not know the Buyer real address. The Escrow will not know the Buyer or Seller real addresses or the amount transacted. The buyer and sellers will only know the Escrow Address.`,
+
+            questionPromiseFulfilled: `How does the Buyer know that the Seller has the promised funds?`,
+            answerPromiseFulfilled: `If they agreed on the price, the Buyer will automatically ask a proof from the Seller that he has enough funds to do the trade. The Seller will generate a proof showing that he has enough for the trade.`,
+
+            questionCanWeTradeAnything: `What assets/tokens can be traded ?`,
+            answerCanWeTradeAnything: `Any real-world asset can be "tokenized" into a digital form and traded on ${config.app.name}. Anybody can issue assets/tokens on ${config.app.name}. The assets/tokens can be pegged by a real-world asset, can be collateralized by a different asset/crypto or even non-collateralized.`,
+
+            questionRingSignatureUntraceable: `How come ${config.app.name} assets/tokens are untraceable ?`,
+            answerRingSignatureUntraceable: `${config.app.name} uses Confidential Ring Signatures (like in Monero) meaning that the amounts are hidden (confidential) and a transaction uses random decoys from the network (a ring transaction).`,
+        },
 
     },
 
