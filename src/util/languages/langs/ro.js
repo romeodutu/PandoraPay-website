@@ -9,7 +9,7 @@ export default {
             title: "Primul Exchange Descentralizat Anonim",
             subTitle: "Plati Anonime facute simplu",
         },
-        
+
         contact:{
 
         },

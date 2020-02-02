@@ -34,6 +34,12 @@ export default {
 
     SET_LOCALIZATION_SELECTED_LANGUAGE: (state, {  language }) => {
 
+        const replaces = {
+            'md': 'ro',
+        };
+
+        if (replaces[language]) language = replaces[language];
+
         if ( ['ro','en'].indexOf(language) < 0){
             language = 'en';
         }
