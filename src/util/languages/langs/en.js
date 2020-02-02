@@ -36,7 +36,28 @@ export default {
             nameIsPrivate: `${config.app.name} is private`,
             youOwnYourOwnKey: `You own your own key and nobody can track you.`,
 
-            gotAQuestion: "Got a question? We've got answers on ',
+            anonymousPaymentsMadeEasy: `Anonymous payments made easy.`,
+            webDWallet:`Web Wallet`,
+
+            makeITperfect:`Making it perfect for you !`,
+            worldFirstAnonymousStablecoin:`World's first anonymous and untraceable stablecoin`,
+
+            descriptionOfCharacterPrivate:`Private`,
+            descriptionOfCharacterPrivateZether:`Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
+
+            descriptionOfCharacterUntraceable:`Untraceable`,
+            descriptionOfCharacterObfuscated:`Sending and receiving addresses including transacted amounts are obfuscated by default.`,
+
+            descriptionOfCharacterFungible:`Fungible`,
+            descriptionOfCharacterNoBlacklist:`Units of ${config.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
+
+            descriptionOfCharacterAssetPlusCurrency:`Assets & Currencies`,
+            descriptionOfCharacterAssetPlusCurrencyAnchor:`Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
+
+            descriptionOfCharacterConfidentialBlindedEscrow:`Confidential Blinded Escrow`,
+            descriptionOfCharacterCompletelyBlindEscrow:`Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
+
+            gotAQuestion: `Got a question? We've got answers on `,
             gotAQuestionFaq: "FAQ",
 
         },
