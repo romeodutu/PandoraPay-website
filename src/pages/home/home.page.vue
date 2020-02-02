@@ -293,11 +293,6 @@
             </section>
 
 
-            <header class="section-header">
-                <small>FAQ</small>
-                <p>Got a question? We've got answers on <router-link to="/faq">FAQ </router-link>.</p>
-            </header>
-
 
             <section id="section-mission" class="section">
                 <div class="container">
@@ -354,6 +349,12 @@
                     </div>
                 </div>
             </section>
+
+            <header class="section-header">
+                <small>FAQ</small>
+                <p>Got a question? We've got answers on <router-link to="/faq">FAQ </router-link>.</p>
+            </header>
+
 
 
         </main>

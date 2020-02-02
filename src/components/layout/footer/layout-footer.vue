@@ -8,16 +8,16 @@
                 <div class="col-6 col-md-3">
                     <h6 class="mb-4"><strong>Organization</strong></h6>
                     <div class="nav flex-column">
-                        <a class="nav-link" href="#">About us</a>
-                        <a class="nav-link" href="#">Contact us</a>
+                        <router-link to="" class="nav-link" >About us</router-link>
+                        <router-link to="/contact" class="nav-link" >Contact</router-link>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <h6 class="mb-4"><strong>Blockchain</strong></h6>
                     <div class="nav flex-column">
-                        <a class="nav-link" href="#">Why {{config.name}}?</a>
-                        <a class="nav-link" href="#">Security</a>
+                        <router-link to=""  class="nav-link" >Why {{config.name}}?</router-link>
+                        <router-link to="" class="nav-link" >Security</router-link>
                         <router-link class="nav-link" to="/faq">FAQ</router-link>
                     </div>
                 </div>
@@ -25,16 +25,17 @@
                 <div class="col-6 col-md-3">
                     <h6 class="mb-4"><strong>Community</strong></h6>
                     <div class="nav flex-column">
+                        <a class="nav-link" href="https://github.com/PandoraPay" target="_blank">GitHub</a>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
                     <h6 class="mb-4"><strong>Support</strong></h6>
                     <div class="nav flex-column">
-                        <a class="nav-link" href="#">Help Center</a>
-                        <a class="nav-link" href="#">Guides</a>
-                        <a class="nav-link" href="#">API</a>
-                        <a class="nav-link" href="#">FAQ</a>
+                        <router-link to="" class="nav-link" >Help Center</router-link>
+                        <router-link to="" class="nav-link" >Guides</router-link>
+                        <router-link to="" class="nav-link" >API</router-link>
+                        <router-link to="" class="nav-link" >FAQ</router-link>
                     </div>
                 </div>
 
