@@ -164,9 +164,9 @@
                     <div class="row">
                         <div class="col-md-8 mx-auto">
 
-                            <h3 class="lead-6 text-white mb-7 fw-2001">Anonymous payments made easy.</h3>
-                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">Web Wallet</a></p>
-
+                            <h3 class="lead-6 text-white mb-7 fw-2001">{{ $i18n.t('pages.homepage.anonymousPaymentsMadeEasy') }}</h3>
+                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">{{ $i18n.t('pages.homepage.webDWallet') }}</a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -181,9 +181,9 @@
             <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
-                        <h2>Making it perfect for you !</h2>
+                        <h2>{{ $i18n.t('pages.homepage.makeITperfect') }}</h2>
                         <hr>
-                        <p class="lead">World's first anonymous and untraceable stablecoin</p>
+                        <p class="lead">{{ $i18n.t('pages.homepage.worldFirstAnonymousStablecoin') }}</p>
                     </header>
 
                     <div class="row gap-y text-center">
@@ -192,8 +192,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-key"></i></div>
                                 <div class="media-body">
-                                    <h5>Private</h5>
-                                    <p>Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterPrivate') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterPrivateZether') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -203,8 +203,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-unlink"></i></div>
                                 <div class="media-body">
-                                    <h5>Untraceable</h5>
-                                    <p>Sending and receiving addresses including transacted amounts are obfuscated by default.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterUntraceable') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterObfuscated') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +214,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-lock"></i></div>
                                 <div class="media-body">
-                                    <h5>Fungible</h5>
-                                    <p>Units of {{config.name}} can not be blacklisted by vendors or exchanges due to their association in previous transactions.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterFungible') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoBlacklist') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -225,8 +225,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-money"></i></div>
                                 <div class="media-body">
-                                    <h5>Assets & Currencies</h5>
-                                    <p>Anonymous digital assets & currencies that anchor the value of other assets backed by the community.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterAssetPlusCurrency') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterAssetPlusCurrencyAnchor') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -236,8 +236,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-eye"></i></div>
                                 <div class="media-body">
-                                    <h5>Confidential Blinded Escrow</h5>
-                                    <p>Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterConfidentialBlindedEscrow') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterCompletelyBlindEscrow') }}</p>
                                 </div>
                             </div>
                         </div>
