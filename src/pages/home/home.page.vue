@@ -13,24 +13,24 @@
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="100">{{this.blocks}}</p>
-                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.blocks') }}</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('pages.homepage.blocks') }}</p>
                         </div>
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="250">{{this.blocks*23}}</p>
-                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.transactions') }}</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('pages.homepage.transactions') }}</p>
                         </div>
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">{{this.blocks*10}}</p>
-                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.uniqueAccounts') }}</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('pages.homepage.uniqueAccounts') }}</p>
                         </div>
 
                         <div class="col-md-12">
 
                             <p class="small text-uppercase ls-2 text-center">
-                                {{ $i18n.t('homepage.realTimeDataFrom') }}
-                                <a class="btn btn-lg btn-round btn-outline-light mw-200" :href="config.explorer"> {{ $i18n.t('homepage.testNetBlockchainExplorer') }}</a>
+                                {{ $i18n.t('pages.homepage.realTimeDataFrom') }}
+                                <a class="btn btn-lg btn-round btn-outline-light mw-200" :href="config.explorer"> {{ $i18n.t('pages.homepage.testNetBlockchainExplorer') }}</a>
                             </p>
 
                         </div>
@@ -50,9 +50,9 @@
 
                     <div class="row gap-y align-items-center">
                         <div class="col-md-6 mr-auto">
-                            <h2>{{ $i18n.t('homepage.anonymousCashForTheInternet') }}</h2>
-                            <p class="lead">{{  $i18n.t('homepage.worldsFirstAnonymousDecentralizedExchange') }}</p>
-                            <p>{{  $i18n.t('homepage.itsFastPrivateAndSecure') }}</p>
+                            <h2>{{ $i18n.t('pages.homepage.anonymousCashForTheInternet') }}</h2>
+                            <p class="lead">{{  $i18n.t('pages.homepage.worldsFirstAnonymousDecentralizedExchange') }}</p>
+                            <p>{{  $i18n.t('pages.homepage.itsFastPrivateAndSecure') }}</p>
                         </div>
 
                         <div class="col-md-5">
