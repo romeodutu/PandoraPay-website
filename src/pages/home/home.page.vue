@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="col-md-5">
-                            <img src="/public/assets/theme/img/vector/5.png" alt="...">
+                            <img src="/public/assets/theme/img/vector/5.png" :alt="{{ $i18n.t('pages.homepage.anonymousCashForTheInternet') }}">
                         </div>
                     </div>
 

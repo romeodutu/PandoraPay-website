@@ -1,3 +1,5 @@
+import config from "build/config/config";
+
 export default {
 
     global:{
@@ -32,6 +34,10 @@ export default {
     layout:{
 
         header:{
+
+            navbar:{
+
+            },
 
         },
 
