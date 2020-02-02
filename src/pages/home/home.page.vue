@@ -352,7 +352,7 @@
 
             <header class="section-header">
                 <small>FAQ</small>
-                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }}</p>
+                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }} <router-link to="/faq">{{ $i18n.t('pages.homepage.gotAQuestionFaq') }}</router-link>.</p>
             </header>
 
 
