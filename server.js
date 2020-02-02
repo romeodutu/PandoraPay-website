@@ -7,6 +7,7 @@ const compression = require('compression')
 const microcache = require('route-cache')
 const resolve = file => path.resolve(__dirname, file)
 const { createBundleRenderer } = require('vue-server-renderer')
+const cookieParser = require('cookie-parser');
 
 const isProd = process.env.NODE_ENV === 'production';
 const useMicroCache = process.env.MICRO_CACHE !== 'false';
@@ -66,6 +67,7 @@ const serve = (path, cache) => express.static(resolve(path), {
 })
 
 app.use(compression({ threshold: 0 }));
+app.use(cookieParser()); // cookie parser
 app.use(favicon('./public/logo-48.png'));
 app.use('/dist', serve('./dist', true));
 app.use('/public', serve('./public', true));
@@ -97,7 +99,10 @@ function render (req, res) {
       console.error(`error during render : ${req.url}`)
       console.error(err.stack)
     }
-  }
+  };
+
+
+  const ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
 
   //default values
   const context = {
@@ -105,6 +110,8 @@ function render (req, res) {
     description: config.app.description,
     keywords: config.app.keywords,
     images: `<meta property="og:image" content="${config.app.image}"/>\n` + `<meta property="twitter:image" content="${config.app.image}"/>`,
+    cookies: req.cookies,   //signedCookies instead
+    ip: ip,   //the ip
     url: req.url
   }
   

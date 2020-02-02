@@ -10,11 +10,11 @@
                     <div class="col-md-8 mx-auto">
 
                         <img src="/public/assets/images/pandora-pay-logo-white-cropped.png">
-                        <h1>World's First Anonymous Exchange</h1>
-                        <p class="lead mt-5 mb-8"> Anonymous payments made easy for average Joe. </p>
+                        <h1>{{ $i18n.t('homepage.title') }}</h1>
+                        <p class="lead mt-5 mb-8">{{ $i18n.t('homepage.subTitle') }}. </p>
 
                         <p class="gap-xy">
-                            <a class="btn btn-lg btn-round btn-light mw-200" :href="config.wallet">Web Wallet</a>
+                            <a class="btn btn-lg btn-round btn-light mw-200" :href="config.wallet">{{ $i18n.t('global.webWallet') }}</a>
                         </p>
                     </div>
 

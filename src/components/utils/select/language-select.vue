@@ -7,8 +7,9 @@
                     <i :class="`sl-flag flag-${getSelected.short}`"></i> <b >{{getSelected.text}}</b>
                     <div class="triangle"></div>
                     <ul>
-                        <li v-for="(lang, index) in languages">
-                            <i :class="`sl-flag flag-${lang.short}`"></i> <span class="active">{{lang.text}}</span>
+                        <li v-for="(lang, index) in languages" @click="selectLanguage(lang)">
+                            <i :class="`sl-flag flag-${lang.short}`"></i>
+                            <span class="active">{{lang.text}}</span>
                         </li>
                     </ul>
                 </li>
@@ -24,7 +25,6 @@ export default {
     data(){
         return {
 
-            selected: 'en',
 
             languages: {
                 en: {
@@ -43,13 +43,19 @@ export default {
     computed:{
 
         getSelected(){
-            return this.languages[this.selected];
+            return this.languages[this.$store.state.localization.language];
         }
 
     },
 
     methods:{
-        
+
+        selectLanguage(language){
+
+            this.$store.dispatch('LOCALIZATION_STORE_SELECTED_LANGUAGE', {language: language.short} );
+
+        }
+
     }
 
 }
