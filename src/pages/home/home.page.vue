@@ -13,24 +13,24 @@
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="100">{{this.blocks}}</p>
-                            <p class="small text-uppercase ls-2">Blocks</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.blocks') }}</p>
                         </div>
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="250">{{this.blocks*23}}</p>
-                            <p class="small text-uppercase ls-2">Transactions</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.transactions') }}</p>
                         </div>
 
                         <div class="col-12 col-sm-4">
                             <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">{{this.blocks*10}}</p>
-                            <p class="small text-uppercase ls-2">Unique Accounts</p>
+                            <p class="small text-uppercase ls-2">{{ $i18n.t('homepage.uniqueAccounts') }}</p>
                         </div>
 
                         <div class="col-md-12">
 
                             <p class="small text-uppercase ls-2 text-center">
-                                REAL TIME DATA FROM
-                                <a class="btn btn-lg btn-round btn-outline-light mw-200" :href="config.explorer"> TEST NET Blockchain Explorer</a>
+                                {{ $i18n.t('homepage.realTimeDataFrom') }}
+                                <a class="btn btn-lg btn-round btn-outline-light mw-200" :href="config.explorer"> {{ $i18n.t('homepage.testNetBlockchainExplorer') }}</a>
                             </p>
 
                         </div>
@@ -50,9 +50,9 @@
 
                     <div class="row gap-y align-items-center">
                         <div class="col-md-6 mr-auto">
-                            <h2>Anonymous cash for the internet</h2>
-                            <p class="lead">World's First Anonymous Decentralized Exchange</p>
-                            <p>It's fast, private and secure. With {{config.name}}, you are your own bank. You can send money totally anonymously to anyone knowing that others cannot see your balance or track your activity. </p>
+                            <h2>{{ $i18n.t('homepage.anonymousCashForTheInternet') }}</h2>
+                            <p class="lead">{{  $i18n.t('homepage.worldsFirstAnonymousDecentralizedExchange') }}</p>
+                            <p>{{  $i18n.t('homepage.itsFastPrivateAndSecure') }}</p>
                         </div>
 
                         <div class="col-md-5">
@@ -292,10 +292,68 @@
                 </div>
             </section>
 
+
             <header class="section-header">
                 <small>FAQ</small>
                 <p>Got a question? We've got answers on <router-link to="/faq">FAQ </router-link>.</p>
             </header>
+
+
+            <section id="section-mission" class="section">
+                <div class="container">
+                    <div class="row gap-y align-items-center">
+
+                        <div class="col-md-7 mx-auto">
+                            <h2>Timeline for PandoraPay Main Net</h2>
+                            <p class="lead">Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code was already been implemented</p>
+
+                            <br>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Data structure</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Networking</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Crypto & RingCT - Ring Confidential Signatures</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-check text-success mr-2"></i>
+                                <span> Blockchain & Consensus</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Exchange - 50%</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Encrypted Messages</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Completly Blinded Escrow</span>
+                            </p>
+
+                            <p>
+                                <i class="ti-pencil text-success mr-2"></i>
+                                <span> Final Tests</span>
+                            </p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
 
 
         </main>

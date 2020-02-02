@@ -18,6 +18,7 @@
                     <a class="nav-link" :href="config.wallet">Web Wallet</a>
                     <router-link class="nav-link" to="/contact">Contact</router-link>
                     <router-link class="nav-link" to="/faq">FAQ</router-link>
+                    <language-select class="nav-link"/>
                 </nav>
             </section>
 
@@ -27,10 +28,19 @@
 
 <script>
 import config from "build/config/config";
+import LanguageSelect from "components/utils/select/language-select"
+
 export default {
+
+    components: {LanguageSelect},
 
     props:{
         light: false,
+    },
+
+    data(){
+        return {
+        };
     },
 
     computed:{

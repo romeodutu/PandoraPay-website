@@ -8,9 +8,11 @@ const isDev = process.env.NODE_ENV !== 'production'
 // Since data fetching is async, this function is expected to
 // return a Promise that resolves to the app instance.
 export default context => {
-  return new Promise((resolve, reject) => {
+  return new Promise(async (resolve, reject) => {
     const s = isDev && Date.now()
-    const { app, router, store } = createApp()
+    const { app, router, store } = createApp('server');
+
+    await store.dispatch('LOCALIZATION_NEW_IP', context.ip ); //Dispatching the Context IP
 
     const { url } = context
     const { fullPath } = router.resolve(url).route
@@ -18,6 +20,19 @@ export default context => {
     if (fullPath !== url) {
       return reject({ url: fullPath })
     }
+
+    const {language} = context.cookies || {};
+
+    if (language){
+
+      store.commit('SET_LOCALIZATION_SELECTED_LANGUAGE', { language } );
+
+    }else {
+
+      await store.dispatch('LOCALIZATION_FETCH',);
+
+    }
+
 
     // set router's location
     router.push(url)
