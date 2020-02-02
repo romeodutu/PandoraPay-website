@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="col-md-5">
-                            <img src="/public/assets/theme/img/vector/5.png" :alt="{{ $i18n.t('pages.homepage.anonymousCashForTheInternet') }}">
+                            <img src="/public/assets/theme/img/vector/5.png" :alt="$i18n.t('pages.homepage.anonymousCashForTheInternet')">
                         </div>
                     </div>
 
@@ -76,13 +76,13 @@
                 <div class="container">
                     <div class="row gap-y align-items-center">
                         <div class="col-md-6 ml-auto">
-                            <h2>Get Paid Anonymously</h2>
-                            <p class="lead">It's untraceable</p>
-                            <p>Sending and receiving addresses as well as transacted amounts are obfuscated by default. Transactions on the {{config.name}} cannot be linked to a particular user or real-world identity.</p>
+                            <h2>{{ $i18n.t('pages.homepage.getPaidAnonymously') }}</h2>
+                            <p class="lead">{{ $i18n.t('pages.homepage.itsUntraceable')}}</p>
+                            <p>{{ $i18n.t('pages.homepage.sendingReceivingAddressesObfuscated') }}</p>
                         </div>
 
                         <div class="col-md-5 order-md-first">
-                            <img src="/public/assets/theme/img/vector/6.png" alt="...">
+                            <img src="/public/assets/theme/img/vector/6.png" :alt="$i18n.t('pages.homepage.getPaidAnonymously')">
                         </div>
                     </div>
                 </div>
@@ -100,13 +100,13 @@
                     <div class="row gap-y align-items-center">
 
                         <div class="col-md-5 ml-auto">
-                            <h3 >Private Digital Currency</h3>
-                            <p class="lead" >with a Single Click</p>
-                            <p >Never been easier to send and receive money internationally totally anonymously and untraceable.</p>
+                            <h3>{{ $i18n.t('pages.homepage.privateDigitalCurrency') }}</h3>
+                            <p class="lead" >{{ $i18n.t('pages.homepage.withASingleClick') }}</p>
+                            <p> {{ $i18n.t('pages.homepage.neverBeenEasierToSendAndReceiveMoney') }}.</p>
                         </div>
 
                         <div class="col-md-4 mx-auto text-center">
-                            <img src="/public/assets/theme/img/vector/7.png" alt="...">
+                            <img src="/public/assets/theme/img/vector/7.png" :alt="$i18n.t('pages.homepage.privateDigitalCurrency')">
                         </div>
 
                     </div>
@@ -126,26 +126,26 @@
                     <div class="row">
 
                         <div class="col-md-6 align-self-center pb-7">
-                            <h3>You are your own bank</h3>
-                            <p>With {{config.name}}, you are your own bank and others cannot see your balances or track your activity. Say hello to {{config.name}}.</p>
+                            <h3>{{ $i18n.t('pages.homepage.youAreYourOwnBank') }}</h3>
+                            <p>{{ $i18n.t('pages.homepage.withNameYouAreYourOwnBank') }}</p>
 
                             <div class="row mt-7">
                                 <div class="col-6">
                                     <p class="text-danger lead-7"><i class="icon-documents"></i></p>
-                                    <h5>{{config.name}} is secure</h5>
-                                    <p>Unstoppable by using decentralized blockchain technology secured by a network of users.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.nameIsSecure')}}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.unstoppableByUsingDecentralizedBlockchain') }}.</p>
                                 </div>
 
                                 <div class="col-6">
                                     <p class="text-danger lead-7"><i class="icon-key"></i></p>
-                                    <h5>{{config.name}} is private</h5>
-                                    <p>You own your own key and nobody can track you.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.nameIsPrivate') }}</h5>
+                                    <p>{{  $i18n.t('pages.homepage.youOwnYourOwnKey') }}.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-6 text-center order-md-first">
-                            <img class="mr-40" src="/public/assets/theme/img/vector/8.png" alt="...">
+                            <img class="mr-40" src="/public/assets/theme/img/vector/8.png" :alt="$i18n.t('pages.homepage.youAreYourOwnBank')">
                         </div>
 
                     </div>
