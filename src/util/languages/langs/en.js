@@ -42,20 +42,44 @@ export default {
             makeITperfect:`Making it perfect for you !`,
             worldFirstAnonymousStablecoin:`World's first anonymous and untraceable stablecoin`,
 
-            descriptionOfCharacterPrivate:`Private`,
-            descriptionOfCharacterPrivateZether:`Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
+            descriptionOfCharacterPrivate: `Private`,
+            descriptionOfCharacterPrivateZether: `Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
 
-            descriptionOfCharacterUntraceable:`Untraceable`,
-            descriptionOfCharacterObfuscated:`Sending and receiving addresses including transacted amounts are obfuscated by default.`,
+            descriptionOfCharacterUntraceable: `Untraceable`,
+            descriptionOfCharacterObfuscated: `Sending and receiving addresses including transacted amounts are obfuscated by default.`,
 
-            descriptionOfCharacterFungible:`Fungible`,
-            descriptionOfCharacterNoBlacklist:`Units of ${config.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
+            descriptionOfCharacterFungible: `Fungible`,
+            descriptionOfCharacterNoBlacklist: `Units of ${config.app.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
 
-            descriptionOfCharacterAssetPlusCurrency:`Assets & Currencies`,
-            descriptionOfCharacterAssetPlusCurrencyAnchor:`Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
+            descriptionOfCharacterAssetPlusCurrency: `Assets & Currencies`,
+            descriptionOfCharacterAssetPlusCurrencyAnchor: `Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
 
-            descriptionOfCharacterConfidentialBlindedEscrow:`Confidential Blinded Escrow`,
-            descriptionOfCharacterCompletelyBlindEscrow:`Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
+            descriptionOfCharacterConfidentialBlindedEscrow: `Confidential Blinded Escrow`,
+            descriptionOfCharacterCompletelyBlindEscrow: `Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
+
+            descriptionOfCharacterReviewsForTraders: `Reviews for Traders`,
+            descriptionOfCharacterReviewsForTradersAnonymous: `To increase the trust between traders in an untrusted network, anonymous reviews can be written down.`,
+
+            descriptionOfCharacterEncryptedChat: `Encrypted Chat`,
+            descriptionOfCharacterEncryptedChatEndToEnd: `The chat in ${config.app.name}  between traders and blinded escrow are encrypted end to end.`,
+
+            descriptionOfCharacterNoDeposit: `No deposit`,
+            descriptionOfCharacterNoDepositNoCoins: `${config.app.name} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins`,
+
+            descriptionOfCharacterInstantAnonymity: `Instant anonymity & HD Wallets`,
+            descriptionOfCharacterAdvancedHdWallet: `It just takes seconds to decrypt and view your balances and transactions. More, it has an advanced HD Wallet implemented.`,
+
+            mainNetTimeline: `Timeline for PandoraPay Main Net`,
+            launchTimeline: `Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code has already been implemented`,
+
+            featuresTimelineDataStructure: `Data structure`,
+            featuresTimelineNetworking: `Networking`,
+            featuresTimelineCryptoAndRingCT: `Crypto & RingCT - Ring Confidential Signatures`,
+            featuresTimelineBlockchainAndConsensus: `Blockchain & Consensus`,
+            featuresTimelineExchangeFiftyPerCent: `Exchange - 50%`,
+            featuresTimelineEncryptedMessages: `Encrypted Messages`,
+            featuresTimelineCompletlyBlindedEscrow: `Completly Blinded Escrow`,
+            featuresTimelineFinalTests: `Final Tests`,
 
             gotAQuestion: `Got a question? We've got answers on `,
             gotAQuestionFaq: "FAQ",
