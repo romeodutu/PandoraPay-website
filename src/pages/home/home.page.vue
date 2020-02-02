@@ -247,8 +247,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments-smiley"></i></div>
                                 <div class="media-body">
-                                    <h5>Reviews for Traders</h5>
-                                    <p>To increase the trust between traders in an untrusted network, anonymous reviews can be written down.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterReviewsForTraders') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterReviewsForTradersAnonymous') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -257,8 +257,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments"></i></div>
                                 <div class="media-body">
-                                    <h5>Encrypted Chat</h5>
-                                    <p>The chat in {{config.name}}  between traders and blinded escrow are encrypted end to end.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterEncryptedChat') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterEncryptedChatEndToEnd') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -268,8 +268,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-tag"></i></div>
                                 <div class="media-body">
-                                    <h5>No deposit</h5>
-                                    <p>{{config.name}} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoDeposit') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoDepositNoCoins') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -279,8 +279,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-check-box"></i></div>
                                 <div class="media-body">
-                                    <h5>Instant anonymity & HD Wallets</h5>
-                                    <p>To verify your own encrypted balances it takes only seconds to decrypted your own balances and your previous transactions. More, it has implemented an advanced HD Wallet.</p>
+                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterInstantAnonymity') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterAdvancedHdWallet') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -299,49 +299,49 @@
                     <div class="row gap-y align-items-center">
 
                         <div class="col-md-7 mx-auto">
-                            <h2>Timeline for PandoraPay Main Net</h2>
-                            <p class="lead">Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code was already been implemented</p>
+                            <h2>{{ $i18n.t('pages.homepage.mainNetTimeline') }}</h2>
+                            <p class="lead">{{ $i18n.t('pages.homepage.launchTimeline') }}</p>
 
                             <br>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span> Data structure</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineDataStructure') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span> Networking</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineNetworking') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span> Crypto & RingCT - Ring Confidential Signatures</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineCryptoAndRingCT') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span> Blockchain & Consensus</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineBlockchainAndConsensus') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span> Exchange - 50%</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineExchangeFiftyPerCent') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span> Encrypted Messages</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineEncryptedMessages') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span> Completly Blinded Escrow</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineCompletlyBlindedEscrow') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span> Final Tests</span>
+                                <span>{{ $i18n.t('pages.homepage.featuresTimelineFinalTests') }}</span>
                             </p>
 
                         </div>
