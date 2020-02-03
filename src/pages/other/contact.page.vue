@@ -8,10 +8,10 @@
             <section class="section">
                 <div class="container">
                     <header class="section-header">
-                        <small>People</small>
-                        <h2>Meet us</h2>
+                        <small>{{ $i18n.t('pages.contact.powerToThePeople') }}</small>
+                        <h2>{{ $i18n.t('pages.contact.powerToThePeopleMeetTheCommunity') }}</h2>
                         <hr>
-                        <p class="lead">Meet our small team that make those great products</p>
+                        <p class="lead">{{ $i18n.t('pages.contact.aFewGoodMen') }}</p>
                     </header>
 
 
@@ -19,11 +19,11 @@
 
                         <div class="offset-md-4 col-md-4 team-2">
                             <a href="#">
-                                <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" alt="Alexandru Ionut Budisteanu" >
+                                <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" :alt="$i18n.t('pages.contact.aFewGoodMenAlexandruIonutBudisteanu')">
                             </a>
-                            <h5>Alexandru Ionut Budisteanu</h5>
-                            <small>Founder</small>
-                            <p>Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name..</p>
+                            <h5>{{ $i18n.t('pages.contact.aFewGoodMenAbi') }}</h5>
+                            <small>{{ $i18n.t('pages.contact.aFewGoodMenFounder') }}</small>
+                            <p>{{ $i18n.t('pages.contact.aFewGoodMenFounderAchievements') }}</p>
                             <br>
                             <div class="social social-brand">
                                 <a class="social-facebook" href="https://facebook.com/budisteanu.ionut"  target="_blank" ><i class="icon-facebook"></i></a>
@@ -41,15 +41,15 @@
             <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
-                        <small>Contact</small>
-                        <h2 class="display-4">Let's Talk</h2>
+                        <small>{{ $i18n.t('pages.contact.powerToThePeopleContactTheCommunity') }}</small>
+                        <h2 class="display-4">{{ $i18n.t('pages.contact.powerToThePeopleTalkToTheCommunity') }}</h2>
                         <hr>
-                        <p class="lead">Here are the ways you can contact us with any questions you have</p>
+                        <p class="lead">{{ $i18n.t('pages.contact.powerToThePeopleWaysToContact') }}</p>
                     </header>
 
                     <form class="form-row input-border" action="" method="POST" data-form="mailer">
                         <div class="col-12">
-                            <div class="alert alert-success d-on-success">We received your message and will contact you back soon.</div>
+                            <div class="alert alert-success d-on-success">{{ $i18n.t('pages.contact.messageReceivedWaitNow') }}</div>
                         </div>
 
 
