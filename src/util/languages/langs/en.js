@@ -145,7 +145,13 @@ export default {
         header:{
 
             navbar:{
-
+                ppLogoInline: `logo`,
+                ppLogoInlineWhite: `logo`,
+                goGoHome: `Home`,
+                goGoBlockExplorer: `Block Explorer`,
+                goGoWebWallet: `Web Wallet`,
+                goGoContact: `Contact`,
+                goGoFaq: `FAQ`,
             },
 
         },
