@@ -100,6 +100,10 @@ export default {
             powerToThePeopleWaysToContact: `Here are the ways you can contact us with any questions you have`,
 
             messageReceivedWaitNow: `We received your message and will contact you back soon.`,
+            inputYourName: `Your name`,
+            inputYourEmail: `Your email`,
+            inputYourMessage: `Message`,
+            hitSendHard: `SEND`,
         },
 
         faq:{
