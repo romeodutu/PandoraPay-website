@@ -54,19 +54,19 @@
 
 
                         <div class="form-group col-sm-4 offset-sm-2">
-                            <input class="form-control form-control-lg" type="text" name="name" placeholder="Your name">
+                            <input class="form-control form-control-lg" type="text" name="name" :placeholder="$i18n.t('pages.contact.inputYourName')">
                         </div>
 
                         <div class="form-group col-sm-4">
-                            <input class="form-control form-control-lg" type="email" name="email" placeholder="Your email">
+                            <input class="form-control form-control-lg" type="email" name="email" :placeholder="$i18n.t('pages.contact.inputYourEmail')">
                         </div>
 
                         <div class="form-group col-8 offset-2">
-                            <textarea class="form-control form-control-lg" rows="4" placeholder="Message" name="message"></textarea>
+                            <textarea class="form-control form-control-lg" rows="4" :placeholder="$i18n.t('pages.contact.inputYourMessage')" name="message"></textarea>
                         </div>
 
                         <div class="col-8 text-center offset-2">
-                            <button class="btn btn-xl btn-block btn-primary" type="submit">SEND</button>
+                            <button class="btn btn-xl btn-block btn-primary" type="submit">{{ $i18n.t('pages.contact.hitSendHard') }}</button>
                         </div>
                     </form>
 
