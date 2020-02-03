@@ -181,7 +181,7 @@
             <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
-                        <h2>{{ $i18n.t('pages.homepage.makeITperfect') }}</h2>
+                        <h2>{{ $i18n.t('pages.homepage.makeItPerfect') }}</h2>
                         <hr>
                         <p class="lead">{{ $i18n.t('pages.homepage.worldFirstAnonymousStablecoin') }}</p>
                     </header>

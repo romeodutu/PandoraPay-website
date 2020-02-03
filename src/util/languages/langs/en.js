@@ -39,7 +39,7 @@ export default {
             anonymousPaymentsMadeEasy: `Anonymous payments made easy.`,
             webDWallet:`Web Wallet`,
 
-            makeITperfect:`Making it perfect for you !`,
+            makeItPerfect:`Making it perfect for you !`,
             worldFirstAnonymousStablecoin:`World's first anonymous and untraceable stablecoin`,
 
             descriptionOfCharacterPrivate: `Private`,
