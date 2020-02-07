@@ -6,37 +6,38 @@
             <div class="row gap-y">
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Organization</strong></h6>
+                    <h6 class="mb-4"><strong>{{ $i18n.t('layout.footer.organization') }}</strong></h6>
                     <div class="nav flex-column">
-                        <router-link to="" class="nav-link" >About us</router-link>
-                        <router-link to="/contact" class="nav-link" >Contact</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.aboutUs') }}</router-link>
+                        <router-link to="/contact" class="nav-link" >{{ $i18n.t('layout.footer.contact') }}</router-link>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Blockchain</strong></h6>
+                    <h6 class="mb-4"><strong>{{ $i18n.t('layout.footer.blockchain') }}</strong></h6>
                     <div class="nav flex-column">
-                        <router-link to=""  class="nav-link" >Why {{config.name}}?</router-link>
-                        <router-link to="" class="nav-link" >Security</router-link>
-                        <router-link class="nav-link" to="/faq">FAQ</router-link>
+                        <router-link to=""  class="nav-link" >{{ $i18n.t('layout.footer.whyUs') }}</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.security') }}</router-link>
+                        <router-link class="nav-link" to="/faq">{{ $i18n.t('layout.footer.faq') }}</router-link>
+                        <router-link class="nav-link" to="/faq">{{ $i18n.t('layout.footer.termsAndConditions') }}</router-link>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Community</strong></h6>
+                    <h6 class="mb-4"><strong>{{ $i18n.t('layout.footer.community') }}</strong></h6>
                     <div class="nav flex-column">
-                        <a class="nav-link" href="https://github.com/PandoraPay" target="_blank">GitHub</a>
-                        <a class="nav-link" href="https://t.me/PandoraPayOfficial" target="_blank">Telegram</a>
+                        <a class="nav-link" href="https://github.com/PandoraPay" target="_blank">{{ $i18n.t('layout.footer.github') }}</a>
+                        <a class="nav-link" href="https://t.me/PandoraPayOfficial" target="_blank">{{ $i18n.t('layout.footer.telegram') }}</a>
                     </div>
                 </div>
 
                 <div class="col-6 col-md-3">
-                    <h6 class="mb-4"><strong>Support</strong></h6>
+                    <h6 class="mb-4"><strong>{{ $i18n.t('layout.footer.support') }}</strong></h6>
                     <div class="nav flex-column">
-                        <router-link to="" class="nav-link" >Help Center</router-link>
-                        <router-link to="" class="nav-link" >Guides</router-link>
-                        <router-link to="" class="nav-link" >API</router-link>
-                        <router-link to="" class="nav-link" >FAQ</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.helpCenter') }}</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.guides') }}</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.api') }}</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.faq') }}</router-link>
                     </div>
                 </div>
 
@@ -48,7 +49,7 @@
         <div class="row gap-y">
 
             <div class="col-md-6 text-center text-md-left">
-                <small class="opacity-70">© 2020 {{config.name}}. It is an open source project created by a community.</small>
+                <small class="opacity-70"> {{ $i18n.t('layout.footer.footer') }}</small>
             </div>
 
 

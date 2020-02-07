@@ -154,6 +154,27 @@ export default {
 
         footer:{
 
+            organization: "Organization",
+            aboutUs: "About",
+            contact: "Contact",
+
+            blockchain: "Blockchain",
+            whyUs:`Why ${config.app.name}?`,
+            security: "Security",
+            termsAndConditions: "Terms and Conditions",
+
+            community: "Community",
+            github: "GitHub",
+            telegram: "Telegram",
+
+            support: "Support",
+            helpCenter: "Help Center",
+            guides: "Guides",
+            api: "API",
+            faq: "FAQ",
+
+            footer: `© 2020 ${config.app.name}. It is an open source project created by a community.`
+
         },
 
     }
