@@ -3,151 +3,139 @@ import config from "build/config/config";
 export default {
 
     global:{
-        webWallet: "WebWallet",
-        explorer: `Block Explorer`,
-        faq: `FAQ`,
+        webWallet: "PortafoglioWeb",
     },
 
     pages:{
 
         homepage:{
+            title: "Il primo Exchange Anonimo al mondo",
+            subTitle: "Pagamenti anonimi e semplificati per qualsiasi utente medio",
+            blocks: 'Blocchi',
+            transactions: 'Transazioni',
+            uniqueAccounts: 'Account unici',
+            realTimeDataFrom: 'Dati in tempo reale da',
+            testNetBlockchainExplorer: 'Esploratore Test Net della blockchain',
 
-            title: "World's First Anonymous Exchange",
-            subTitle: "Anonymous payments made easy for average Joe",
-            blocks: 'Blocks',
-            transactions: 'Transactions',
-            uniqueAccounts: 'Unique Accounts',
-            realTimeDataFrom: 'Real time data from',
-            testNetBlockchainExplorer: 'Test net blockchain explorer',
+            anonymousCashForTheInternet: 'Contanti anonimi per internet',
+            worldsFirstAnonymousDecentralizedExchange: "Primo Exchange al Mondo Anonimo e Decentralizzato",
+            itsFastPrivateAndSecure: `&Egrave; veloce, privato e sicuro. Con ${config.app.name}, sei tu la tua banca. Puoi inviare denaro in modo completamente anonimo a chiunque sapendo che gli altri non posson vedere il tuo saldo o tracciare la tua attivit&aacute;.`,
 
-            anonymousCashForTheInternet: 'Anonymous cash for the internet',
-            worldsFirstAnonymousDecentralizedExchange: "World's First Anonymous Decentralized Exchange",
-            itsFastPrivateAndSecure: `It's fast, private and secure. With ${config.app.name}, you are your own bank. You can send money totally anonymously to anyone knowing that others cannot see your balance or track your activity.`,
+            getPaidAnonymously: 'Ricevi pagamento in modo Anonimo',
+            itsUntraceable: "&Egrave; intracciabile",
+            sendingReceivingAddressesObfuscated: `Per default,sia gli indirizzi di invio e ricezione che l'ammontare della transazione sono offuscati. Le transazioni su ${config.app.name} non possono essere collegate ad un particolare utente o qualsiasi altra identit&aacute; del mondo reale.`,
 
-            getPaidAnonymously: 'Get Paid Anonymously',
-            itsUntraceable: "It's untraceable",
-            sendingReceivingAddressesObfuscated: `Sending and receiving addresses as well as transacted amounts are obfuscated by default. Transactions on the ${config.app.name} cannot be linked to a particular user or real-world identity.`,
+            privateDigitalCurrency: "Moneta Digitale Privata",
+            withASingleClick: "con un solo Click",
+            neverBeenEasierToSendAndReceiveMoney: "Non &egrave; mai stato cos&iacute; facile inviare e ricevere denaro in tutto il mondo,in modo completamente anonimo e intracciabile.",
 
-            privateDigitalCurrency: "Private Digital Currency",
-            withASingleClick: "with a Single Click",
-            neverBeenEasierToSendAndReceiveMoney: "Never been easier to send and receive money internationally totally anonymously and untraceable.",
+            youAreYourOwnBank: `Sei tu la tua banca`,
+            withNameYouAreYourOwnBank: `Con ${config.app.name}, sei tu la tua banca e gli altri non possono vedere il tuo saldo o tracciare la tua attivit&aacute;. Saluta ${config.app.name}.`,
+            nameIsSecure: `${config.app.name} &egrave; sicura`,
+            unstoppableByUsingDecentralizedBlockchain: `Inarrestabile poich&egrave; utilizza una tecnologia blockchain decentralizzata securizzata da una rete di utenti.`,
+            nameIsPrivate: `${config.app.name} &egrave; privata`,
+            youOwnYourOwnKey: `Sei l'unico a possedere la propria chiave e nessuno pu&oacute; tracciarti.`,
 
-            youAreYourOwnBank: `You are your own bank`,
-            withNameYouAreYourOwnBank: `With ${config.app.name}, you are your own bank and others cannot see your balances or track your activity. Say hello to ${config.app.name}.`,
-            nameIsSecure: `${config.app.name} is secure`,
-            unstoppableByUsingDecentralizedBlockchain: `Unstoppable by using decentralized blockchain technology secured by a network of users.`,
-            nameIsPrivate: `${config.app.name} is private`,
-            youOwnYourOwnKey: `You own your own key and nobody can track you.`,
+            anonymousPaymentsMadeEasy: `Pagamenti anonimi in modo semplice.`,
+            webDWallet:`Portafoglio Web`,
 
-            anonymousPaymentsMadeEasy: `Anonymous payments made easy.`,
+            makeItPerfect:`Rendendolo perfetto per te !`,
+            worldFirstAnonymousStablecoin:`La prima stablecoin al mondo intracciabile e anonima`,
 
-            features:{
+            descriptionOfCharacterPrivate: `Privata`,
+            descriptionOfCharacterPrivateZether: `Il recente meccanismo Zether che utilizza Σ-bullets offusca l'origine, l'ammontare e la destinazione di tutte le transazioni.`,
 
-                makeItPerfect:`Making it perfect for you !`,
-                worldFirstAnonymousExchange:`World's first anonymous and untraceable decentralized exchange`,
+            descriptionOfCharacterUntraceable: `Intracciabile`,
+            descriptionOfCharacterObfuscated: `Gli indirizzi d'invio e ricezione, compreso l'ammontare della transazione sono offuscati di default.`,
 
-                private: `Private`,
-                privateZether: `Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
+            descriptionOfCharacterFungible: `Fungibile`,
+            descriptionOfCharacterNoBlacklist: `Le unit&aacute; ${config.app.name} non possono essere messe in una lista nera dai venditori o dagli exchanges in base al loro coinvolgimento a precedenti transazioni.`,
 
-                untraceable: `Untraceable`,
-                obfuscated: `Sending and receiving addresses including transacted amounts are obfuscated by default.`,
+            descriptionOfCharacterAssetPlusCurrency: `Risorse & Valute`,
+            descriptionOfCharacterAssetPlusCurrencyAnchor: `Risorse digitali anonime & valute ancorate al valore di altre risorse sostenute dalla comunit&aacute;.`,
 
-                fungible: `Fungible`,
-                noBlacklist: `Units of ${config.app.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
+            descriptionOfCharacterConfidentialBlindedEscrow: `Escrow(garante) Confidenziale e Cieco`,
+            descriptionOfCharacterCompletelyBlindEscrow: `Gli Escrows non conoscono l'ammontare, il mittente reale e neanche il destinatoario reale.Gli Escrows sono completamente ciechi.`,
 
-                assetPlusCurrency: `Assets & Currencies`,
-                assetPlusCurrencyAnchor: `Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
+            descriptionOfCharacterReviewsForTraders: `Recensioni dei commercianti`,
+            descriptionOfCharacterReviewsForTradersAnonymous: `Per aumentare la fiducia tra i commercianti in una rete non affidabile, possono essere scritte recensioni anonime.`,
 
-                confidentialBlindedEscrow: `Confidential Blinded Escrow`,
-                completelyBlindEscrow: `Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
+            descriptionOfCharacterEncryptedChat: `Chat Criptata`,
+            descriptionOfCharacterEncryptedChatEndToEnd: `La chat in ${config.app.name}  tra i commercianti e gli escrow ciechi &eacute; criptata end to end.`,
 
-                reviewsForTraders: `Reviews for Traders`,
-                reviewsForTradersAnonymous: `To increase the trust between traders in an untrusted network, anonymous reviews can be written down.`,
+            descriptionOfCharacterNoDeposit: `Nessun deposito`,
+            descriptionOfCharacterNoDepositNoCoins: `${config.app.name} &eacute; il primo exchange p2p decentralizzato che permette agli utenti di iniziare a commerciare senza dover prima depositare o possedere alcuna valuta. Per comprare valute o risorse, non hai bisogno di possedere valuta`,
 
-                encryptedChat: `Encrypted Chat`,
-                encryptedChatEndToEnd: `The chat in ${config.app.name}  between traders and blinded escrow are encrypted end to end.`,
+            descriptionOfCharacterInstantAnonymity: `Anonimit&aacute; istantanea & Portafogli HD`,
+            descriptionOfCharacterAdvancedHdWallet: `Ci vogliono soli pochi secondi per decriptare e visualizzare il tuo saldo e le tue transazioni. Inoltre, &egrave implementato un portafoglio avanzato di tipo HD Wallet.`,
 
-                noDeposit: `No deposit`,
-                noDepositNoCoins: `${config.app.name} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins`,
+            mainNetTimeline: `Sequenza temporale per la Main Net di PandoraPay`,
+            launchTimeline: `Sequenza temporale per il lancio di PandoraPay. Non vogliamo fornire alcuna data ufficiale, ma la maggior parte del codice &egrave gi&aacute; stato implementato`,
 
-                instantAnonymity: `Instant anonymity & HD Wallets`,
-                advancedHdWallet: `It just takes seconds to decrypt and view your balances and transactions. More, it has an advanced HD Wallet implemented.`,
+            featuresTimelineDataStructure: `Struttura dei dati`,
+            featuresTimelineNetworking: `Networking`,
+            featuresTimelineCryptoAndRingCT: `Crypto & RingCT - Firme Confidenziali ad Anello`,
+            featuresTimelineBlockchainAndConsensus: `Blockchain & Consensus`,
+            featuresTimelineExchangeFiftyPerCent: `Exchange - 50%`,
+            featuresTimelineEncryptedMessages: `Messaggi Criptati`,
+            featuresTimelineCompletlyBlindedEscrow: `Escrow Completamente Ciechi`,
+            featuresTimelineFinalTests: `Test Finali`,
 
-            },
-
-
-            finished:{
-
-                timeline: `Timeline for PandoraPay Main Net`,
-                launchTimeline: `Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code has already been implemented`,
-
-                dataStructure: `Data structure`,
-                networking: `Networking`,
-                cryptoAndRingCT: `Crypto & RingCT - Ring Confidential Signatures`,
-                blockchainAndConsensus: `Blockchain & Consensus`,
-                exchangeFiftyPerCent: `Exchange - 50%`,
-                encryptedMessages: `Encrypted Messages`,
-                completlyBlindedEscrow: `Completly Blinded Escrow`,
-                finalTests: `Final Tests`,
-
-            },
-
-
-            gotAQuestion: `Got a question? We've got answers on `,
+            gotAQuestion: `Hai una domanda? Abbiamo le risposte su `,
             gotAQuestionFaq: "FAQ",
         },
 
         contact:{
-            people: `People`,
-            peopleMeetTheCommunity: `Meet us`,
+            powerToThePeople: `Persone`,
+            powerToThePeopleMeetTheCommunity: `Incontraci`,
 
-            team: `Meet our small team that make those great products`,
-            teamAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
-            teamBudisteanu: `Alexandru Ionut Budisteanu`,
-            teamFounder: `Founder`,
-            teamFounderAchievements: `Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name.`,
+            aFewGoodMen: `Incontra la nostra piccola squadra che fa grandi prodotti`,
+            aFewGoodMenAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
+            aFewGoodMenAbi: `Alexandru Ionut Budisteanu`,
+            aFewGoodMenFounder: `Fondatore`,
+            aFewGoodMenFounderAchievements: `Alexandru &egrave; stato nominato nella classifica Forbes Europe 30 under 30 nella categoria industry. Nel 2013, &egrave; stato nominato dal Time Magazine come uno degli adolescenti pi&uacute; influenti al mondo. L'MIT ha dato il suo nome ad un asteroide.`,
 
-            contactTheCommunity: `Contact`,
-            letsTalk: `Let's Talk`,
-            waysToContact: `Here are the ways you can contact us with any questions you have`,
+            powerToThePeopleContactTheCommunity: `Contatto`,
+            powerToThePeopleTalkToTheCommunity: `Parliamo`,
+            powerToThePeopleWaysToContact: `Se hai delle domande da farci, trovi qui i modi in cui puoi contattarci`,
 
-            messageReceivedWaitNow: `We received your message and will contact you back soon.`,
-            inputYourName: `Your name`,
-            inputYourEmail: `Your email`,
-            inputYourMessage: `Message`,
-            send: `SEND`,
+            messageReceivedWaitNow: `Abbiamo ricevuto il tuo messaggio e ti contatteremo al pi&uacute; presto.`,
+            inputYourName: `Il tuo nome`,
+            inputYourEmail: `La tua email`,
+            inputYourMessage: `Messaggio`,
+            hitSendHard: `INVIA`,
         },
 
         faq:{
-            weGotAnswers: `Frequently Asked Questions`,
-            weGotAllTheAnswers: `Got a question? We are here to answer your questions!`,
+            weGotAnswers: `Domande poste frequentemente`,
+            weGotAllTheAnswers: `Hai delle domande? Siamo qui per risponderti!`,
 
-            questionTypeOfPaymentAccepted: `What payments will be accepted?`,
-            answerTypeOfPaymentAccepted: `All payments will be accepted except the payments that offer easily chargebacks scamming the sellers. ${config.app.name} is not limited and users can define their own payment methods including: Face-to-Face, National/International Bank Transfers, SEPA, AliPay, WeChat Pay, Revolut, BTC, ETH, WEBD etc. Some payments that facilitate easy chargebacks will be discouraged for low-ranking buyers. One such chargeback payment is PayPal because it is easy to do chargebacks claiming that you didn't receive the products.`,
+            questionTypeOfPaymentAccepted: `Quali tipi di pagamento saranno accettati?`,
+            answerTypeOfPaymentAccepted: `Tutti i tipi di pagamento saranno accettati ad eccezione di quelli che offrono  un chargeback(riaddebito), esponendo i venditori a facili truffe. ${config.app.name} non ha limiti e gli utenti possono definire i propri metodi di pagamento, incluso: Faccia-a-Faccia, Bonifici Bancacari Nazionali e/o Internazionali, SEPA, AliPay, WeChat Pay, Revolut, BTC, ETH, WEBD etc. Alcuni pagamenti  consentono un facile riaddebito  saranno scoraggiati per gli acquirenti  di basso livello. Un esempio di pagamento con questo tipo di riaddebito &egrave; PayPal poich&eacute; facile ottenere il riaddebito sostenedo di non aver ricevuto i prodotti.`,
 
-            questionPeerToPeerExchange: `How does the Peer-to-Peer Exchange work?`,
-            answerPeerToPeerExchange: `A trade is occurred when a buyer acquires from a seller some coins/tokens. The seller will open a trade selling some assets (tokens) and the buyer pays off-chain to acquire these assets (tokens). After the off-chain payment from the buyer is finalized and confirmed, the buyer will get the assets (tokens) from the seller.`,
+            questionPeerToPeerExchange: `Come funziona l'Exchange Peer-to-Peer?`,
+            answerPeerToPeerExchange: `Un commercio avviene quando un compratore compra da un venditore delle monete/gettoni. Il venditore aprir&aacute; un commercio vendendo delle risorse (gettoni) e il compratore pagher&aacute; in modo off-chain per acquistare queste risorse (gettoni). Una volta che il pagamento off-chain del compratore sar&aacute; stato finalizzato e confermato, il compratore ricever&aacute; le risorse(gettoni) dal venditore.`,
 
-            questionIsBuyerProtected: `How is the Buyer protected in ${config.app.name} ?`,
-            answerIsBuyerProtected: `The Seller who owns assets and wishes to sell them on the exchange will have to deposit anonymously the assets into a special trade account that is still owned by him. Then the seller sets a blinded escrow to this trade account for trading supervision. Now, the seller can't move funds from the trading account without the permission of the escrow. In case of a dispute the buyer can complain proving that he sent the funds to the seller, but the seller is not willfully sending the funds.`,
+            questionIsBuyerProtected: `Come &egrave; protetto il compratore in ${config.app.name} ?`,
+            answerIsBuyerProtected: `Il venditore che possiede le risorse e desidera venderle nell'exchange dovr&aacute; depositare in modo anonimo le risorse in un account speciale per il commercio da lui posseduto. Poi,il venditore imposter&aacute; su queso account un escrow cieco per supervisionare lo scambio. A questo punto, il compratore non potr&aacute; spostare i fondi dall'account di commercio senza il permesso dell'escrow. In caso di una disputa, il compratore pu&oacute; reclamare fornendo una prova che ha inviato i fondi al venditore, ma il venditore volontariamente non sta inviando i fondi.`,
 
-            questionCompletelyBlindedEscrow: `What is a Completely Blinded Escrow ?`,
-            answerCompletelyBlindedEscrow: `A Completely Blinded Escrow will NOT know the amount traded, the address of the real trader, and the address of the real trader. He also doesn't have power to move the funds by himself, he is only used to assure that the buyer is not moving funds promised to a seller.`,
+            questionCompletelyBlindedEscrow: `Che cos'&egrave; un Escrow(garante) Completatmente Cieco?`,
+            answerCompletelyBlindedEscrow: `Un Escrow(garante) Completatmente Cieco NON sapr&aacute; mai l'ammontare scambiato, l'indirizzo del mittente reale, e l'indirizzo del destinatario reale. Inoltre, l'Escrow non ha il potere di spostare i fondi , &egrave; usato solo per assicurare che il compratore non sposti fondi promessi al venditore.`,
 
-            questionIsTradeChatEncrypted: `Are the chat messages encrypted in the trades ?`,
-            answerIsTradeChatEncrypted: `YES! All the chat messages are encrypted peer-to-peer using cryptographic functions namely ECIES - Elliptic Curve Integrated Encryption Scheme.`,
+            questionIsTradeChatEncrypted: `I messaggi nei commerci sono criptati?`,
+            answerIsTradeChatEncrypted: `SI! Tutti i messaggi della chat sono criptati peer-to-peer usando funzioni crittografiche.`,
 
-            questionAddressNeedToKnowOnly: `Does the Buyer, Seller, or the Escrow will know each other addresses ?`,
-            answerAddressNeedToKnowOnly: `No! The Buyer will not know the Seller real address. The Seller will not know the Buyer real address. The Escrow will not know the Buyer or Seller real addresses or the amount transacted. The buyer and sellers will only know the Escrow Address.`,
+            questionAddressNeedToKnowOnly: `Il Compratore, il Venditore, o l'Escrow conosceranno i corrispettivi indirizzi ?`,
+            answerAddressNeedToKnowOnly: `No! Il Compratore non conoscer&aacute; l'indirizzo reale del Venditore. Il Venditore non conoscer&aacute; l'indirizzo reale del Compratore. L'Escrow non conoscer&aacute; l'indirizzo reale del Compratore o del Venditore o la somma transazionata. Il venditore e il compratore sapranno solo l'indirizzo dell'Escrow.`,
 
-            questionProofOwnerFunds: `How does the Buyer know that the Seller has the promised funds?`,
-            answerProofOwnerFunds: `If they agreed on the price, the Buyer will automatically ask a proof from the Seller that he has enough funds to do the trade. The Seller will generate a proof showing that he has enough for the trade.`,
+            questionPromiseFulfilled: `Come fa il Compratore a saperee se il Venditore ha i fondi promessi?`,
+            answerPromiseFulfilled: `Se si sono accordati sul prezzo, il Compratore richieder&aacute; automaticamente una prova dal Venditore che dimostri di avere fondi sufficienti per effettuare lo scambio. Il Venditore quindi, generer&aacute; una prova che dimostri che egli ha fondi sufficienti per effettuare lo scambio.`,
 
-            questionCanWeTradeAnything: `What assets/tokens can be traded ?`,
-            answerCanWeTradeAnything: `Any real-world asset can be "tokenized" into a digital form and traded on ${config.app.name}. Anybody can issue assets/tokens on ${config.app.name}. The assets/tokens can be pegged by a real-world asset, can be collateralized by a different asset/crypto or even non-collateralized.`,
+            questionCanWeTradeAnything: `Quali risorse/gettoni si possono scambiare ?`,
+            answerCanWeTradeAnything: `Qualsiasi risorsa del mondo reale pu&oacute; essere trasformata in un gettone digitale e commerciata su ${config.app.name}. Chiunque pu&oacute; emettere risorse/gettoni su ${config.app.name}. Le risorse/gettoni possono essere associate a risorse del mondo reale, possono essere collateralizzate da una differente risorsa/crypto o anche non-collateralizzate.`,
 
-            questionRingSignatureUntraceable: `How come ${config.app.name} assets/tokens are untraceable ?`,
-            answerRingSignatureUntraceable: `${config.app.name} uses Confidential Ring Signatures (like in Monero) meaning that the amounts are hidden (confidential) and a transaction uses random decoys from the network (a ring transaction).`,
+            questionRingSignatureUntraceable: `Come fanno le risorse/gettoni di ${config.app.name} ad essere intracciabili ?`,
+            answerRingSignatureUntraceable: `${config.app.name} usa Confidential Ring Signatures (Firme Confidenziali ad Anello - come Monero), ci&oacute; significa che l'ammontare &egrave; nascosto (confidenziale) ed una transazione utilizza esche casuali dalla rete(transazione ad anello).`,
         },
 
     },
@@ -158,30 +146,33 @@ export default {
             logoAlt: `${config.app.name}`,
 
             home: `Home`,
-            contact: `Contact`,
+            blockExplorer: `Block Explorer`,
+            contact: `Contatto`,
+            faq: `FAQ`,
         },
 
         footer:{
 
-            organization: "Organization",
-            aboutUs: "About",
-            contact: "Contact",
+            organization: "Organizzazione",
+            aboutUs: "Chi siamo",
+            contact: "Contatto",
 
             blockchain: "Blockchain",
-            whyUs:`Why ${config.app.name}?`,
-            security: "Security",
-            termsAndConditions: "Terms and Conditions",
+            whyUs:`Perch&eacute; ${config.app.name}?`,
+            security: "Sicurezza",
+            termsAndConditions: "Termini e Condizioni",
 
-            community: "Community",
+            community: "Comunit&aacute;",
             github: "GitHub",
             telegram: "Telegram",
 
-            support: "Support",
-            helpCenter: "Help Center",
-            guides: "Guides",
+            support: "Supporto",
+            helpCenter: "Centro Aiuto",
+            guides: "Guide",
             api: "API",
+            faq: "FAQ",
 
-            footer: `© 2020 ${config.app.name}. It is an open source project created by a community.`
+            footer: `© 2020 ${config.app.name}. &egrave; un progetto open source creato da una comunit&aacute;.`
 
         },
 
