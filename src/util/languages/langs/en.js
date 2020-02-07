@@ -143,11 +143,10 @@ export default {
     layout:{
 
         navbar:{
-            logoAlt: `PandoraPay`,
+            logoAlt: `${config.app.name}`,
 
             home: `Home`,
             blockExplorer: `Block Explorer`,
-            webWallet: `Web Wallet`,
             contact: `Contact`,
             faq: `FAQ`,
         },
