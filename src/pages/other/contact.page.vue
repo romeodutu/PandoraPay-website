@@ -38,7 +38,7 @@
             </section>
 
 
-            <section class="section bg-gray">
+          <!--  <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
                         <small>Contact</small>
@@ -71,7 +71,7 @@
                     </form>
 
                 </div>
-            </section>
+            </section>-->
 
         </main>
 

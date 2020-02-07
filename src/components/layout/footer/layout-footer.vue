@@ -26,6 +26,7 @@
                     <h6 class="mb-4"><strong>Community</strong></h6>
                     <div class="nav flex-column">
                         <a class="nav-link" href="https://github.com/PandoraPay" target="_blank">GitHub</a>
+                        <a class="nav-link" href="https://t.me/PandoraPayOfficial" target="_blank">Telegram</a>
                     </div>
                 </div>
 

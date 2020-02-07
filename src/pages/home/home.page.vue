@@ -22,7 +22,7 @@
                         </div>
 
                         <div class="col-12 col-sm-4">
-                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">{{this.blocks*10}}</p>
+                            <p class="lead-8 mb-0 counted" data-provide="countup" data-from="0" data-to="430">{{this.blocks*50}}</p>
                             <p class="small text-uppercase ls-2">{{ $i18n.t('pages.homepage.uniqueAccounts') }}</p>
                         </div>
 
@@ -356,7 +356,6 @@
             </header>
 
 
-
         </main>
 
 
@@ -395,7 +394,7 @@ export default {
 
             try{
 
-                const address = "http://pandorapay.ddns.net:8082/blockchain/get-info";
+                const address = "http://pandorapay.ddns.net:8083/blockchain/get-info";
                 const data = await fetch(address);
 
                 if (data){
