@@ -18,7 +18,7 @@
                     <div class="nav flex-column">
                         <router-link to=""  class="nav-link" >{{ $i18n.t('layout.footer.whyUs') }}</router-link>
                         <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.security') }}</router-link>
-                        <router-link class="nav-link" to="/faq">{{ $i18n.t('layout.footer.faq') }}</router-link>
+                        <router-link class="nav-link" to="/faq">{{ $i18n.t('global.faq') }}</router-link>
                         <router-link class="nav-link" to="/faq">{{ $i18n.t('layout.footer.termsAndConditions') }}</router-link>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                         <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.helpCenter') }}</router-link>
                         <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.guides') }}</router-link>
                         <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.api') }}</router-link>
-                        <router-link to="" class="nav-link" >{{ $i18n.t('layout.footer.faq') }}</router-link>
+                        <router-link to="" class="nav-link" >{{ $i18n.t('global.faq') }}</router-link>
                     </div>
                 </div>
 

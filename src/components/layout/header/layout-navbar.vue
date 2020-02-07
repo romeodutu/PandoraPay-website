@@ -14,10 +14,10 @@
             <section class="navbar-mobile">
                 <nav class="nav nav-navbar ml-auto">
                     <router-link class="nav-link" to="/">{{ $i18n.t('layout.navbar.home') }}</router-link>
-                    <a class="nav-link" :href="config.explorer">{{ $i18n.t('global.webWallet') }}</a>
-                    <a class="nav-link" :href="config.wallet">{{ $i18n.t('layout.navbar.webWallet') }}</a>
+                    <a class="nav-link" :href="config.explorer">{{ $i18n.t('global.explorer') }}</a>
+                    <a class="nav-link" :href="config.wallet">{{ $i18n.t('global.webWallet') }}</a>
                     <router-link class="nav-link" to="/contact">{{ $i18n.t('layout.navbar.contact') }}</router-link>
-                    <router-link class="nav-link" to="/faq">{{ $i18n.t('layout.navbar.faq') }}</router-link>
+                    <router-link class="nav-link" to="/faq">{{ $i18n.t('global.faq') }}</router-link>
                     <language-select class="nav-link"/>
                 </nav>
             </section>

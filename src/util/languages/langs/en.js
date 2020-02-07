@@ -4,6 +4,8 @@ export default {
 
     global:{
         webWallet: "WebWallet",
+        explorer: `Block Explorer`,
+        faq: `FAQ`,
     },
 
     pages:{
@@ -156,9 +158,7 @@ export default {
             logoAlt: `${config.app.name}`,
 
             home: `Home`,
-            blockExplorer: `Block Explorer`,
             contact: `Contact`,
-            faq: `FAQ`,
         },
 
         footer:{
@@ -180,7 +180,6 @@ export default {
             helpCenter: "Help Center",
             guides: "Guides",
             api: "API",
-            faq: "FAQ",
 
             footer: `© 2020 ${config.app.name}. It is an open source project created by a community.`
 

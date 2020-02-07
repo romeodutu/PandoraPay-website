@@ -164,8 +164,8 @@
                     <div class="row">
                         <div class="col-md-8 mx-auto">
 
-                            <h3 class="lead-6 text-white mb-7 fw-2001">{{ $i18n.t('global.pages.webWallet') }}</h3>
-                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">{{ $i18n.t('pages.homepage.webDWallet') }}</a></p>
+                            <h3 class="lead-6 text-white mb-7 fw-2001">{{ $i18n.t('pages.homepage.anonymousPaymentsMadeEasy') }}</h3>
+                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">{{ $i18n.t('global.webWallet') }}</a></p>
                             
                         </div>
                     </div>
