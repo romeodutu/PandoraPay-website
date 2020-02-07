@@ -123,7 +123,7 @@ export default {
             answerCompletelyBlindedEscrow: `A Completely Blinded Escrow will NOT know the amount traded, the address of the real trader, and the address of the real trader. He also doesn't have power to move the funds by himself, he is only used to assure that the buyer is not moving funds promised to a seller.`,
 
             questionIsTradeChatEncrypted: `Are the chat messages encrypted in the trades ?`,
-            answerIsTradeChatEncrypted: `YES! All the chat messages are encrypted peer-to-peer using cryptographic functions.`,
+            answerIsTradeChatEncrypted: `YES! All the chat messages are encrypted peer-to-peer using cryptographic functions namely ECIES - Elliptic Curve Integrated Encryption Scheme.`,
 
             questionAddressNeedToKnowOnly: `Does the Buyer, Seller, or the Escrow will know each other addresses ?`,
             answerAddressNeedToKnowOnly: `No! The Buyer will not know the Seller real address. The Seller will not know the Buyer real address. The Escrow will not know the Buyer or Seller real addresses or the amount transacted. The buyer and sellers will only know the Escrow Address.`,
