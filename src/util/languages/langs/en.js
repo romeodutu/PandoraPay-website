@@ -142,18 +142,14 @@ export default {
 
     layout:{
 
-        header:{
+        navbar:{
+            logoAlt: `PandoraPay`,
 
-            navbar:{
-                ppLogoInline: `logo`,
-                ppLogoInlineWhite: `logo`,
-                goGoHome: `Home`,
-                goGoBlockExplorer: `Block Explorer`,
-                goGoWebWallet: `Web Wallet`,
-                goGoContact: `Contact`,
-                goGoFaq: `FAQ`,
-            },
-
+            home: `Home`,
+            blockExplorer: `Block Explorer`,
+            webWallet: `Web Wallet`,
+            contact: `Contact`,
+            faq: `FAQ`,
         },
 
         footer:{
