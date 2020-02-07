@@ -24,13 +24,11 @@ export default {
 
     layout:{
 
-        header:{
 
-            navbar:{
-
-            },
+        navbar:{
 
         },
+
 
         footer:{
 

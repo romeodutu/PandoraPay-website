@@ -87,12 +87,12 @@
 
                         <div class="card" id="how-the-Buyer-knows-that-the-Seller-has-enough-funds-promised-to-sell">
                             <h5 class="card-title">
-                                <router-link to="/faq/#how-the-Buyer-knows-that-the-Seller-has-enough-funds-promised-to-sell" class="collapsed">{{ $i18n.t('pages.faq.questionPromiseFulfilled') }}</router-link>
+                                <router-link to="/faq/#how-the-Buyer-knows-that-the-Seller-has-enough-funds-promised-to-sell" class="collapsed">{{ $i18n.t('pages.faq.questionProofOwnerFunds') }}</router-link>
                             </h5>
 
                             <div class="collapse show" >
                                 <div class="card-body">
-                                    {{ $i18n.t('pages.faq.answerPromiseFulfilled') }}
+                                    {{ $i18n.t('pages.faq.answerProofOwnerFunds') }}
                                 </div>
                             </div>
                         </div>
