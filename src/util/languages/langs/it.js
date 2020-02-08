@@ -155,9 +155,7 @@ export default {
             logoAlt: `${config.app.name}`,
 
             home: `Home`,
-            blockExplorer: `Block Explorer`,
             contact: `Contatto`,
-            faq: `FAQ`,
         },
 
         footer:{
