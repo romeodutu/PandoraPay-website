@@ -43,6 +43,10 @@ export default {
                     short: "es",
                     text: "Español",
                 },
+                de: {
+                    short: "de",
+                    text: "Deutsch",
+                },
             }
 
         }

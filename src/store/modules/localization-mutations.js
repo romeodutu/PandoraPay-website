@@ -56,11 +56,13 @@ export default {
             'uy': 'es',
             'gq': 'es',
             'pr': 'es',
+            'at': 'de',
+            'ch': 'de',
         };
 
         if (replaces[language]) language = replaces[language];
 
-        if ( ['ro','en','it','es'].indexOf(language) < 0){
+        if ( ['ro','en','it','es', 'de'].indexOf(language) < 0){
             language = 'en';
         }
 
