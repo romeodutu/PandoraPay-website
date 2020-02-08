@@ -3,7 +3,7 @@ import config from "build/config/config";
 export default {
 
     global:{
-        webWallet: "WebWallet",
+        webWallet: "Cartera WebWallet",
         explorer: `Block Explorer`,
         faq: `FAQ`,
     },
@@ -12,7 +12,7 @@ export default {
 
         homepage:{
 
-            title: "World's First Anonymous Exchange",
+            title: "El Primer Exchange Anonimo del Mundo",
             subTitle: "Anonymous payments made easy for average Joe",
             blocks: 'Blocks',
             transactions: 'Transactions',
