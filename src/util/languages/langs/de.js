@@ -20,12 +20,12 @@ export default {
 
         homepage:{
 
-            title: "World's First Anonymous Exchange",
-            subTitle: "Anonymous payments made easy for average Joe",
+            title: "Erster Anonyme Exchange Weltweit",
+            subTitle: "Einfache Anonyme Zahlungen für Normalverbrauchern",
             blocks: 'Blocks',
-            transactions: 'Transactions',
-            uniqueAccounts: 'Unique Accounts',
-            realTimeDataFrom: 'Real time data from',
+            transactions: 'Transaktionen',
+            uniqueAccounts: 'Eindeutige Accounts',
+            realTimeDataFrom: 'Echtzeitdaten',
             testNetBlockchainExplorer: 'Test net blockchain explorer',
 
             anonymousCashForTheInternet: 'Anonymous cash for the internet',
