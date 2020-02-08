@@ -21,7 +21,7 @@
                             <a href="#">
                                 <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" :alt="$i18n.t('pages.contact.teamAlexandruIonutBudisteanu')">
                             </a>
-                            <h5>{{ $i18n.t('pages.contact.teamBudisteanu') }}</h5>
+                            <h5>{{ $i18n.t('pages.contact.teamAlexandruIonutBudisteanu') }}</h5>
                             <small>{{ $i18n.t('pages.contact.teamFounder') }}</small>
                             <p>{{ $i18n.t('pages.contact.teamFounderAchievements') }}</p>
                             <br>

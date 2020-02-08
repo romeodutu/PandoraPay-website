@@ -40,7 +40,7 @@ export default {
 
         if (replaces[language]) language = replaces[language];
 
-        if ( ['ro','en'].indexOf(language) < 0){
+        if ( ['ro','en','it'].indexOf(language) < 0){
             language = 'en';
         }
 

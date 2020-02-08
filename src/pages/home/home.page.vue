@@ -336,12 +336,12 @@
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.finished.completlyBlindedEscrow') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.completelyBlindedEscrow') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.finished.FinalTests') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.finalTests') }}</span>
                             </p>
 
                         </div>
@@ -351,8 +351,8 @@
             </section>
 
             <header class="section-header">
-                <small>FAQ</small>
-                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }} <router-link to="/faq">{{ $i18n.t('pages.homepage.gotAQuestionFaq') }}</router-link>.</p>
+                <small>{{ $i18n.t('global.faq') }}</small>
+                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }} <router-link to="/faq">{{ $i18n.t('global.faq') }}</router-link>.</p>
             </header>
 
 

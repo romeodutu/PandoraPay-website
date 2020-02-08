@@ -2,6 +2,7 @@ import VueI18n from 'vue-i18n'
 
 import en from "./langs/en";
 import ro from "./langs/ro";
+import it from "./langs/it";
 
 class I18n {
 
@@ -13,6 +14,7 @@ class I18n {
             messages: {
                 en,
                 ro,
+                it,
             },
         })
 

@@ -87,14 +87,13 @@ export default {
                 blockchainAndConsensus: `Blockchain & Consensus`,
                 exchangeFiftyPerCent: `Exchange - 50%`,
                 encryptedMessages: `Encrypted Messages`,
-                completlyBlindedEscrow: `Completly Blinded Escrow`,
+                completelyBlindedEscrow: `Completly Blinded Escrow`,
                 finalTests: `Final Tests`,
 
             },
 
 
             gotAQuestion: `Got a question? We've got answers on `,
-            gotAQuestionFaq: "FAQ",
         },
 
         contact:{
@@ -103,7 +102,6 @@ export default {
 
             team: `Meet our small team that make those great products`,
             teamAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
-            teamBudisteanu: `Alexandru Ionut Budisteanu`,
             teamFounder: `Founder`,
             teamFounderAchievements: `Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name.`,
 

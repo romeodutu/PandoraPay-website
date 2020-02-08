@@ -41,71 +41,78 @@ export default {
             anonymousPaymentsMadeEasy: `Pagamenti anonimi in modo semplice.`,
             webDWallet:`Portafoglio Web`,
 
-            makeItPerfect:`Rendendolo perfetto per te !`,
-            worldFirstAnonymousStablecoin:`La prima stablecoin al mondo intracciabile e anonima`,
 
-            descriptionOfCharacterPrivate: `Privata`,
-            descriptionOfCharacterPrivateZether: `Il recente meccanismo Zether che utilizza Σ-bullets offusca l'origine, l'ammontare e la destinazione di tutte le transazioni.`,
+            features: {
+                makeItPerfect:`Rendendolo perfetto per te !`,
+                worldFirstAnonymousExchange: `La prima stablecoin al mondo intracciabile e anonima`,
 
-            descriptionOfCharacterUntraceable: `Intracciabile`,
-            descriptionOfCharacterObfuscated: `Gli indirizzi d'invio e ricezione, compreso l'ammontare della transazione sono offuscati di default.`,
+                private: `Privata`,
+                privateZether: `Il recente meccanismo Zether che utilizza Σ-bullets offusca l'origine, l'ammontare e la destinazione di tutte le transazioni.`,
 
-            descriptionOfCharacterFungible: `Fungibile`,
-            descriptionOfCharacterNoBlacklist: `Le unit&aacute; ${config.app.name} non possono essere messe in una lista nera dai venditori o dagli exchanges in base al loro coinvolgimento a precedenti transazioni.`,
+                untraceable: `Intracciabile`,
+                obfuscated: `Gli indirizzi d'invio e ricezione, compreso l'ammontare della transazione sono offuscati di default.`,
 
-            descriptionOfCharacterAssetPlusCurrency: `Risorse & Valute`,
-            descriptionOfCharacterAssetPlusCurrencyAnchor: `Risorse digitali anonime & valute ancorate al valore di altre risorse sostenute dalla comunit&aacute;.`,
+                fungible: `Fungibile`,
+                noBlacklist: `Le unit&aacute; ${config.app.name} non possono essere messe in una lista nera dai venditori o dagli exchanges in base al loro coinvolgimento a precedenti transazioni.`,
 
-            descriptionOfCharacterConfidentialBlindedEscrow: `Escrow(garante) Confidenziale e Cieco`,
-            descriptionOfCharacterCompletelyBlindEscrow: `Gli Escrows non conoscono l'ammontare, il mittente reale e neanche il destinatoario reale.Gli Escrows sono completamente ciechi.`,
+                assetPlusCurrency: `Risorse & Valute`,
+                assetPlusCurrencyAnchor: `Risorse digitali anonime & valute ancorate al valore di altre risorse sostenute dalla comunit&aacute;.`,
 
-            descriptionOfCharacterReviewsForTraders: `Recensioni dei commercianti`,
-            descriptionOfCharacterReviewsForTradersAnonymous: `Per aumentare la fiducia tra i commercianti in una rete non affidabile, possono essere scritte recensioni anonime.`,
+                confidentialBlindedEscrow: `Escrow(garante) Confidenziale e Cieco`,
+                completelyBlindEscrow: `Gli Escrows non conoscono l'ammontare, il mittente reale e neanche il destinatoario reale.Gli Escrows sono completamente ciechi.`,
 
-            descriptionOfCharacterEncryptedChat: `Chat Criptata`,
-            descriptionOfCharacterEncryptedChatEndToEnd: `La chat in ${config.app.name}  tra i commercianti e gli escrow ciechi &eacute; criptata end to end.`,
+                reviewsForTraders: `Recensioni dei commercianti`,
+                reviewsForTradersAnonymous: `Per aumentare la fiducia tra i commercianti in una rete non affidabile, possono essere scritte recensioni anonime.`,
 
-            descriptionOfCharacterNoDeposit: `Nessun deposito`,
-            descriptionOfCharacterNoDepositNoCoins: `${config.app.name} &eacute; il primo exchange p2p decentralizzato che permette agli utenti di iniziare a commerciare senza dover prima depositare o possedere alcuna valuta. Per comprare valute o risorse, non hai bisogno di possedere valuta`,
+                encryptedChat: `Chat Criptata`,
+                encryptedChatEndToEnd: `La chat in ${config.app.name}  tra i commercianti e gli escrow ciechi &eacute; criptata end to end.`,
 
-            descriptionOfCharacterInstantAnonymity: `Anonimit&aacute; istantanea & Portafogli HD`,
-            descriptionOfCharacterAdvancedHdWallet: `Ci vogliono soli pochi secondi per decriptare e visualizzare il tuo saldo e le tue transazioni. Inoltre, &egrave implementato un portafoglio avanzato di tipo HD Wallet.`,
+                noDeposit: `Nessun deposito`,
+                noDepositNoCoins: `${config.app.name} &eacute; il primo exchange p2p decentralizzato che permette agli utenti di iniziare a commerciare senza dover prima depositare o possedere alcuna valuta. Per comprare valute o risorse, non hai bisogno di possedere valuta`,
 
-            mainNetTimeline: `Sequenza temporale per la Main Net di PandoraPay`,
-            launchTimeline: `Sequenza temporale per il lancio di PandoraPay. Non vogliamo fornire alcuna data ufficiale, ma la maggior parte del codice &egrave gi&aacute; stato implementato`,
+                instantAnonymity: `Anonimit&aacute; istantanea & Portafogli HD`,
+                advancedHdWallet: `Ci vogliono soli pochi secondi per decriptare e visualizzare il tuo saldo e le tue transazioni. Inoltre, &egrave implementato un portafoglio avanzato di tipo HD Wallet.`,
+            },
 
-            featuresTimelineDataStructure: `Struttura dei dati`,
-            featuresTimelineNetworking: `Networking`,
-            featuresTimelineCryptoAndRingCT: `Crypto & RingCT - Firme Confidenziali ad Anello`,
-            featuresTimelineBlockchainAndConsensus: `Blockchain & Consensus`,
-            featuresTimelineExchangeFiftyPerCent: `Exchange - 50%`,
-            featuresTimelineEncryptedMessages: `Messaggi Criptati`,
-            featuresTimelineCompletlyBlindedEscrow: `Escrow Completamente Ciechi`,
-            featuresTimelineFinalTests: `Test Finali`,
+            finished:{
+
+                timeline: `Sequenza temporale per la Main Net di PandoraPay`,
+                launchTimeline: `Sequenza temporale per il lancio di PandoraPay. Non vogliamo fornire alcuna data ufficiale, ma la maggior parte del codice &egrave gi&aacute; stato implementato`,
+
+                dataStructure: `Struttura dei dati`,
+                networking: `Networking`,
+                cryptoAndRingCT: `Crypto & RingCT - Firme Confidenziali ad Anello`,
+                blockchainAndConsensus: `Blockchain & Consensus`,
+                exchangeFiftyPerCent: `Exchange - 50%`,
+                encryptedMessages: `Messaggi Criptati`,
+                completelyBlindedEscrow: `Escrow Completamente Ciechi`,
+                finalTests: `Test Finali`,
+
+            },
+
+
 
             gotAQuestion: `Hai una domanda? Abbiamo le risposte su `,
-            gotAQuestionFaq: "FAQ",
         },
 
         contact:{
-            powerToThePeople: `Persone`,
-            powerToThePeopleMeetTheCommunity: `Incontraci`,
+            people: `Persone`,
+            peopleMeetTheCommunity: `Incontraci`,
 
-            aFewGoodMen: `Incontra la nostra piccola squadra che fa grandi prodotti`,
-            aFewGoodMenAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
-            aFewGoodMenAbi: `Alexandru Ionut Budisteanu`,
-            aFewGoodMenFounder: `Fondatore`,
-            aFewGoodMenFounderAchievements: `Alexandru &egrave; stato nominato nella classifica Forbes Europe 30 under 30 nella categoria industry. Nel 2013, &egrave; stato nominato dal Time Magazine come uno degli adolescenti pi&uacute; influenti al mondo. L'MIT ha dato il suo nome ad un asteroide.`,
+            team: `Incontra la nostra piccola squadra che fa grandi prodotti`,
+            teamAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
+            teamFounder: `Fondatore`,
+            teamFounderAchievements: `Alexandru &egrave; stato nominato nella classifica Forbes Europe 30 under 30 nella categoria industry. Nel 2013, &egrave; stato nominato dal Time Magazine come uno degli adolescenti pi&uacute; influenti al mondo. L'MIT ha dato il suo nome ad un asteroide.`,
 
-            powerToThePeopleContactTheCommunity: `Contatto`,
-            powerToThePeopleTalkToTheCommunity: `Parliamo`,
-            powerToThePeopleWaysToContact: `Se hai delle domande da farci, trovi qui i modi in cui puoi contattarci`,
+            contactTheCommunity: `Contatto`,
+            letsTalk: `Parliamo`,
+            waysToContact: `Se hai delle domande da farci, trovi qui i modi in cui puoi contattarci`,
 
             messageReceivedWaitNow: `Abbiamo ricevuto il tuo messaggio e ti contatteremo al pi&uacute; presto.`,
             inputYourName: `Il tuo nome`,
             inputYourEmail: `La tua email`,
             inputYourMessage: `Messaggio`,
-            hitSendHard: `INVIA`,
+            send: `INVIA`,
         },
 
         faq:{
@@ -172,7 +179,6 @@ export default {
             helpCenter: "Centro Aiuto",
             guides: "Guide",
             api: "API",
-            faq: "FAQ",
 
             footer: `© 2020 ${config.app.name}. &egrave; un progetto open source creato da una comunit&aacute;.`
 
