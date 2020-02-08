@@ -1,3 +1,11 @@
+/**
+ * AUTHORS:
+ *
+ * Raul_Crl
+ *
+ */
+
+
 import config from "build/config/config";
 
 export default {

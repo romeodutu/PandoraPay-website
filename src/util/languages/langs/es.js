@@ -1,3 +1,10 @@
+/**
+ * AUTHORS:
+ *
+ * d_a_n_d_a_n_i_e_l
+ *
+ */
+
 import config from "build/config/config";
 
 export default {

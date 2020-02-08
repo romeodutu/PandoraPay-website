@@ -1,3 +1,10 @@
+/**
+ * AUTHORS:
+ *
+ * cbejan
+ *
+ */
+
 import config from "build/config/config";
 
 export default {
