@@ -37,7 +37,7 @@ export default {
                 },
                 it: {
                     short: "it",
-                    text: "Italiana",
+                    text: "Italiano",
                 },
                 es: {
                     short: "es",
