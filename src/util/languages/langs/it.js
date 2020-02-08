@@ -4,6 +4,8 @@ export default {
 
     global:{
         webWallet: "PortafoglioWeb",
+        explorer: `Esploratore Blocco`,
+        faq: `FAQ`,
     },
 
     pages:{
