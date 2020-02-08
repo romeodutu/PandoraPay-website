@@ -39,6 +39,10 @@ export default {
                     short: "it",
                     text: "Italiana",
                 },
+                es: {
+                    short: "es",
+                    text: "Español",
+                },
             }
 
         }
@@ -172,6 +176,10 @@ export default {
 
     .flag-it {
         background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAAUUlEQVQ4T2NkqPKazsDAkMGABJrEg5G5cLZmfhaK+H8GhlmMDFVe//XNdFEkjnm0YDXgv7c/ivj2vXsZRg0YDQNqpQPPmQwMjGnkJGUGBobZAEtLVo37EG2TAAAAAElFTkSuQmCC');
+    }
+
+    .flag-es {
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAMCAYAAABr5z2BAAAA9ElEQVQ4T2PsY2Y48p+BwZqBPHCMsZeZ4X+RjiZZ2vuuXGeg3IBTDQz/TUMswS64fvMPw8//ggzP3oky8HD+ZuDi+M0gIfiRQUbiO1YXnl5znIER2QCG/wwMB3ZbMqjNWsPAuvcQw4Nr+xhMpJYxMP7/SpwBF26JMYgZtDHw33nI8DEvg+Hb6uUM3x4tYtCTv0ScAYcuyDAomFUxnN63muHfg/sMkrYhDF+frmJwt3pEnAE/frIwvPjtznDm+DkGUREWBmV1DQYJjsMMLEw/iDMApurPHyYGFpZ/BKMWHIgDnw56mRmOMjAwWBF0LxYFjAwMxwHj5XGr1M6PtQAAAABJRU5ErkJggg==');
     }
 
 </style>

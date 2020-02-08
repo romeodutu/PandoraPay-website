@@ -36,11 +36,31 @@ export default {
 
         const replaces = {
             'md': 'ro',
+            'mx': 'es',
+            'co': 'es',
+            'ar': 'es',
+            'pe': 'es',
+            've': 'es',
+            'cl': 'es',
+            'ec': 'es',
+            'gt': 'es',
+            'cu': 'es',
+            'bo': 'es',
+            'hn': 'es',
+            'do': 'es',
+            'py': 'es',
+            'sv': 'es',
+            'ni': 'es',
+            'cr': 'es',
+            'pa': 'es',
+            'uy': 'es',
+            'gq': 'es',
+            'pr': 'es',
         };
 
         if (replaces[language]) language = replaces[language];
 
-        if ( ['ro','en','it'].indexOf(language) < 0){
+        if ( ['ro','en','it','es'].indexOf(language) < 0){
             language = 'en';
         }
 
