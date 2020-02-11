@@ -111,7 +111,7 @@ export default {
             team: `Treffen Sie unser kleines Team, welches großartige Produkte erschafft.`,
             teamAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
             teamFounder: `Gründer`,
-            teamFounderAchievements: `Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name.`,
+            teamFounderAchievements: `Alexandru wurde für "Forbes Europa 30 unter 30" in der Kategorie Industrie nominiert. Im Jahr 2013 wurde er vom Time Magazine als einer der einflussreichsten Teenager der Welt nominiert. MIT benannte sogar einen Asteroiden nach ihm.`,
 
             contactTheCommunity: `Kontakt`,
             letsTalk: `Lass uns reden`,
@@ -125,35 +125,35 @@ export default {
         },
 
         faq:{
-            weGotAnswers: `Frequently Asked Questions`,
-            weGotAllTheAnswers: `Got a question? We are here to answer your questions!`,
+            weGotAnswers: `Häufig gestellte Fragen`,
+            weGotAllTheAnswers: `Haben Sie eine Frage? Wir sind hier um Ihre Fragen zu beantworten!`,
 
-            questionTypeOfPaymentAccepted: `What payments will be accepted?`,
-            answerTypeOfPaymentAccepted: `All payments will be accepted except the payments that offer easily chargebacks scamming the sellers. ${config.app.name} is not limited and users can define their own payment methods including: Face-to-Face, National/International Bank Transfers, SEPA, AliPay, WeChat Pay, Revolut, BTC, ETH, WEBD etc. Some payments that facilitate easy chargebacks will be discouraged for low-ranking buyers. One such chargeback payment is PayPal because it is easy to do chargebacks claiming that you didn't receive the products.`,
+            questionTypeOfPaymentAccepted: `Was für Arten von Zahlungen werden akzeptiert?`,
+            answerTypeOfPaymentAccepted: `Alle Arten von Zahlungen werden akzeptiert, abgesehen von Zahlungen die unter Betrugsverdacht stehen und rückgängig gemacht werden können. ${config.app.name} ist auf keine Zahlungsweise limitiert, so dass User ihre gewünschte Zahlungsmethode wählen können: Face-to-Face, National/International Bank Transfers, SEPA, AliPay, WeChat Pay, Revolut, BTC, ETH, WEBD etc. Zahlungen, die einfache Rückforderungen ermöglichen, werden für Käufer mit niedrigem Ranking erschwert.Eine solche Rückbuchungszahlung ist PayPal, da es einfach ist, Rückzahlungen vorzunehmen, wenn Sie behaupten, die Produkte nicht erhalten zu haben. `,
 
-            questionPeerToPeerExchange: `How does the Peer-to-Peer Exchange work?`,
-            answerPeerToPeerExchange: `A trade is occurred when a buyer acquires from a seller some coins/tokens. The seller will open a trade selling some assets (tokens) and the buyer pays off-chain to acquire these assets (tokens). After the off-chain payment from the buyer is finalized and confirmed, the buyer will get the assets (tokens) from the seller.`,
+            questionPeerToPeerExchange: `Wie funktioniert der Peer-to-Peer Exchange?`,
+            answerPeerToPeerExchange: `Ein Handel findet statt, wenn ein Käufer von einem Verkäufer einige Coins / Tokens erwirbt.  Der Verkäufer eröffnet ein Geschäft, in dem er einige Vermögenswerte (Tokens) verkauft, und der Käufer zahlt für den Erwerb dieser Vermögenswerte (Tokens). Nachdem die Off-Chain-Zahlung des Käufers abgeschlossen und bestätigt ist, erhält der Käufer die Vermögenswerte (Tokens) vom Verkäufer. `,
 
-            questionIsBuyerProtected: `How is the Buyer protected in ${config.app.name} ?`,
-            answerIsBuyerProtected: `The Seller who owns assets and wishes to sell them on the exchange will have to deposit anonymously the assets into a special trade account that is still owned by him. Then the seller sets a blinded escrow to this trade account for trading supervision. Now, the seller can't move funds from the trading account without the permission of the escrow. In case of a dispute the buyer can complain proving that he sent the funds to the seller, but the seller is not willfully sending the funds.`,
+            questionIsBuyerProtected: `Wie ist der Käufer auf ${config.app.name} geschützt?`,
+            answerIsBuyerProtected: `Der Verkäufer, der Vermögenswerte besitzt und sie an der Börse verkaufen möchte, muss die Vermögenswerte anonym auf einem speziellen Handelskonto hinterlegen, das noch in seinem Besitz ist. Dann legt der Verkäufer ein blindes Treuhandskonto auf dieses Handelskonto zur Handelsüberwachung an. Nun kann der Verkäufer ohne die Erlaubnis des Treuhänders keine Gelder vom Handelskonto bewegen. Im Streitfall kann der Käufer sich beschweren wenn er nachweisen kann, dass er die Gelder an den Verkäufer geschickt hat, der Verkäufer die Gelder aber nicht mutwillig überwiesen hat.`,
 
-            questionCompletelyBlindedEscrow: `What is a Completely Blinded Escrow ?`,
-            answerCompletelyBlindedEscrow: `A Completely Blinded Escrow will NOT know the amount traded, the address of the real trader, and the address of the real trader. He also doesn't have power to move the funds by himself, he is only used to assure that the buyer is not moving funds promised to a seller.`,
+            questionCompletelyBlindedEscrow: `Was ist ein komplett vertrauliches Treuhandskonto ?`,
+            answerCompletelyBlindedEscrow: `Ein vollständig verblindeter Escrow kennt NICHT den gehandelten Betrag und die Adresse des tatsächlichen Händlers. Er hat auch nicht die Macht, die Gelder selbst zu bewegen, er wird nur dazu benutzt, um sicherzustellen, dass der Käufer keine Gelder bewegt, die einem Verkäufer versprochen wurden.`,
 
-            questionIsTradeChatEncrypted: `Are the chat messages encrypted in the trades ?`,
-            answerIsTradeChatEncrypted: `YES! All the chat messages are encrypted peer-to-peer using cryptographic functions namely ECIES - Elliptic Curve Integrated Encryption Scheme.`,
+            questionIsTradeChatEncrypted: `Sind die Chat-Nachrichten in den Geschäften verschlüsselt ?`,
+            answerIsTradeChatEncrypted: `JA! Alle Chat-Nachrichten sind Peer-to-Peer verschlüsselt, wobei kryptographische Funktionen, nämlich ECIES - Elliptic Curve Integrated Encryption Scheme, verwendet werden.`,
 
-            questionAddressNeedToKnowOnly: `Does the Buyer, Seller, or the Escrow will know each other addresses ?`,
-            answerAddressNeedToKnowOnly: `No! The Buyer will not know the Seller real address. The Seller will not know the Buyer real address. The Escrow will not know the Buyer or Seller real addresses or the amount transacted. The buyer and sellers will only know the Escrow Address.`,
+            questionAddressNeedToKnowOnly: `Kennen sich der Käufer, der Verkäufer oder der Treuhänder gegenseitig die Adressen ?`,
+            answerAddressNeedToKnowOnly: `Nein! Der Käufer wird die tatsächliche Adresse des Verkäufers nicht kennen. Dem Verkäufer ist die tatsächliche Adresse des Käufers nicht bekannt. Der Treuhänder kennt weder die tatsächliche Adresse des Käufers noch des Verkäufers oder den Betrag, der abgewickelt wurde. Dem Käufer und den Verkäufern ist nur die Treuhandadresse bekannt.`,
 
-            questionProofOwnerFunds: `How does the Buyer know that the Seller has the promised funds?`,
-            answerProofOwnerFunds: `If they agreed on the price, the Buyer will automatically ask a proof from the Seller that he has enough funds to do the trade. The Seller will generate a proof showing that he has enough for the trade.`,
+            questionProofOwnerFunds: `Woher weiß der Käufer, dass der Verkäufer die versprochenen Mittel hat?`,
+            answerProofOwnerFunds: `Wenn sie sich auf den Preis geeinigt haben, wird der Käufer automatisch vom Verkäufer einen Nachweis darüber verlangen, dass er über genügend Mittel verfügt, um den Handel durchzuführen. Der Verkäufer wird einen Nachweis darüber erbringen, dass er über genügend Mittel für den Handel verfügt.`,
 
-            questionCanWeTradeAnything: `What assets/tokens can be traded ?`,
-            answerCanWeTradeAnything: `Any real-world asset can be "tokenized" into a digital form and traded on ${config.app.name}. Anybody can issue assets/tokens on ${config.app.name}. The assets/tokens can be pegged by a real-world asset, can be collateralized by a different asset/crypto or even non-collateralized.`,
+            questionCanWeTradeAnything: `Welche Vermögenswerte/Token können gehandelt werden?`,
+            answerCanWeTradeAnything: `Jeder reale Vermögenswert kann in eine digitale Form "tokenisiert" und auf ${config.app.name} gehandelt werden. Jeder kann Vermögenswerte/Token auf ${config.app.name} ausgeben. Die Vermögenswerte/Token können mit einem realen Vermögenswert gekoppelt werden und können durch einen anderen Vermögenswert/Crypto abgesichert oder sogar nicht abgesichert werden.`,
 
-            questionRingSignatureUntraceable: `How come ${config.app.name} assets/tokens are untraceable ?`,
-            answerRingSignatureUntraceable: `${config.app.name} uses Confidential Ring Signatures (like in Monero) meaning that the amounts are hidden (confidential) and a transaction uses random decoys from the network (a ring transaction).`,
+            questionRingSignatureUntraceable: `Wie kommt es, dass ${config.app.name}-Assets und Token nicht zurückverfolgbar sind?`,
+            answerRingSignatureUntraceable: `${config.app.name} verwendet vertrauliche Ringsignaturen (wie in Monero), was bedeutet, dass die Beträge versteckt (vertraulich) sind und eine Transaktion zufällige Köder aus dem Netzwerk verwendet (eine Ring-Transaktion).`,
         },
 
     },
@@ -169,7 +169,7 @@ export default {
 
         footer:{
 
-            organization: "Organization",
+            organization: "Organisation",
             aboutUs: "Über uns",
             contact: "Kontakt",
 
@@ -187,7 +187,7 @@ export default {
             guides: "Guides",
             api: "API",
 
-            footer: `© 2020 ${config.app.name}. It is an open source project created by a community.`
+            footer: `© 2020 ${config.app.name}. Es ist ein Open-Source-Projekt, das von einer Community entwickelt wurde.`
 
         },
 
