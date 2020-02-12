@@ -165,7 +165,7 @@
                         <div class="col-md-8 mx-auto">
 
                             <h3 class="lead-6 text-white mb-7 fw-2001">{{ $i18n.t('pages.homepage.anonymousPaymentsMadeEasy') }}</h3>
-                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">{{ $i18n.t('pages.homepage.webDWallet') }}</a></p>
+                            <p><a class="btn btn-xl btn-round btn-success" :href="config.wallet">{{ $i18n.t('global.webWallet') }}</a></p>
                             
                         </div>
                     </div>
@@ -181,9 +181,9 @@
             <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
-                        <h2>{{ $i18n.t('pages.homepage.makeItPerfect') }}</h2>
+                        <h2>{{ $i18n.t('pages.homepage.features.makeItPerfect') }}</h2>
                         <hr>
-                        <p class="lead">{{ $i18n.t('pages.homepage.worldFirstAnonymousStablecoin') }}</p>
+                        <p class="lead">{{ $i18n.t('pages.homepage.features.worldFirstAnonymousExchange') }}</p>
                     </header>
 
                     <div class="row gap-y text-center">
@@ -192,8 +192,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-key"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterPrivate') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterPrivateZether') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.private') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.privateZether') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -203,8 +203,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-unlink"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterUntraceable') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterObfuscated') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.untraceable') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.obfuscated') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +214,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-lock"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterFungible') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoBlacklist') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.fungible') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.noBlacklist') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -225,8 +225,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-money"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterAssetPlusCurrency') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterAssetPlusCurrencyAnchor') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.assetPlusCurrency') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.assetPlusCurrencyAnchor') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -236,8 +236,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-eye"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterConfidentialBlindedEscrow') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterCompletelyBlindEscrow') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.confidentialBlindedEscrow') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.completelyBlindEscrow') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -247,8 +247,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments-smiley"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterReviewsForTraders') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterReviewsForTradersAnonymous') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.reviewsForTraders') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.reviewsForTradersAnonymous') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -257,8 +257,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-comments"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterEncryptedChat') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterEncryptedChatEndToEnd') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.encryptedChat') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.encryptedChatEndToEnd') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -268,8 +268,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-tag"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoDeposit') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterNoDepositNoCoins') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.noDeposit') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.noDepositNoCoins') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -279,8 +279,8 @@
                             <div class="media">
                                 <div class="lead-6 line-height-1 text-dark mr-5"><i class="ti-check-box"></i></div>
                                 <div class="media-body">
-                                    <h5>{{ $i18n.t('pages.homepage.descriptionOfCharacterInstantAnonymity') }}</h5>
-                                    <p>{{ $i18n.t('pages.homepage.descriptionOfCharacterAdvancedHdWallet') }}</p>
+                                    <h5>{{ $i18n.t('pages.homepage.features.instantAnonymity') }}</h5>
+                                    <p>{{ $i18n.t('pages.homepage.features.advancedHdWallet') }}</p>
                                 </div>
                             </div>
                         </div>
@@ -299,49 +299,49 @@
                     <div class="row gap-y align-items-center">
 
                         <div class="col-md-7 mx-auto">
-                            <h2>{{ $i18n.t('pages.homepage.mainNetTimeline') }}</h2>
-                            <p class="lead">{{ $i18n.t('pages.homepage.launchTimeline') }}</p>
+                            <h2>{{ $i18n.t('pages.homepage.finished.timeline') }}</h2>
+                            <p class="lead">{{ $i18n.t('pages.homepage.finished.launchTimeline') }}</p>
 
                             <br>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineDataStructure') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.dataStructure') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineNetworking') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.networking') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineCryptoAndRingCT') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.cryptoAndRingCT') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-check text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineBlockchainAndConsensus') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.blockchainAndConsensus') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineExchangeFiftyPerCent') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.exchangeFiftyPerCent') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineEncryptedMessages') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.encryptedMessages') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineCompletlyBlindedEscrow') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.completelyBlindedEscrow') }}</span>
                             </p>
 
                             <p>
                                 <i class="ti-pencil text-success mr-2"></i>
-                                <span>{{ $i18n.t('pages.homepage.featuresTimelineFinalTests') }}</span>
+                                <span>{{ $i18n.t('pages.homepage.finished.finalTests') }}</span>
                             </p>
 
                         </div>
@@ -351,8 +351,8 @@
             </section>
 
             <header class="section-header">
-                <small>FAQ</small>
-                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }} <router-link to="/faq">{{ $i18n.t('pages.homepage.gotAQuestionFaq') }}</router-link>.</p>
+                <small>{{ $i18n.t('global.faq') }}</small>
+                <p>{{ $i18n.t('pages.homepage.gotAQuestion') }} <router-link to="/faq">{{ $i18n.t('global.faq') }}</router-link>.</p>
             </header>
 
 

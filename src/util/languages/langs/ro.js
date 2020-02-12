@@ -1,3 +1,11 @@
+/**
+ * AUTHORS:
+ *
+ *
+ *
+ */
+
+
 import config from "build/config/config";
 
 export default {
@@ -128,8 +136,8 @@ export default {
             questionAddressNeedToKnowOnly: `Cumpărătorul, vânzătorul sau escrowul se vor cunoaște?`,
             answerAddressNeedToKnowOnly: `Nu! Cumpărătorul nu va cunoaște adresa reală a Vânzătorului. Vânzătorul nu va cunoaște adresa reală a Cumpărătorului. Escrow nu va cunoaște adresele reale ale Cumpărătorului sau Vânzătorului sau suma tranzacționată. Cumpărătorul și vânzătorii vor cunoaște doar adresa Escrow.`,
 
-            questionPromiseFulfilled: `De unde știe Cumpărătorul că Vânzătorul are fondurile promise?`,
-            answerPromiseFulfilled: `Dacă au convenit asupra prețului, Cumpărătorul va solicita automat o dovadă de la Vânzător că are suficiente fonduri pentru a face tranzacția. Vânzătorul va genera o dovadă care să arate că deține suficiente pentru tranzactie.`,
+            questionProofOwnerFunds: `De unde știe Cumpărătorul că Vânzătorul are fondurile promise?`,
+            answerProofOwnerFunds: `Dacă au convenit asupra prețului, Cumpărătorul va solicita automat o dovadă de la Vânzător că are suficiente fonduri pentru a face tranzacția. Vânzătorul va genera o dovadă care să arate că deține suficiente pentru tranzactie.`,
 
             questionCanWeTradeAnything: `Ce bunuri/tokenuri pot fi tranzacționate?`,
             answerCanWeTradeAnything: `Orice activ din lumea reală poate fi „tokenizat” într-o formă digitală și tranzacționat pe ${config.app.name}. Oricine poate emite active/tokenuri pe ${config.app.name}. Activele/tokenurile pot fi legate de un activ din lumea reală, pot fi colateralizate de un alt activ/cripto sau chiar necoletarizat.`,
@@ -150,6 +158,7 @@ export default {
             contact: `Contact`,
             faq: `FAQ`,
         },
+
 
         footer:{
 

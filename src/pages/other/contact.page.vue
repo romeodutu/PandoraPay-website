@@ -8,10 +8,10 @@
             <section class="section">
                 <div class="container">
                     <header class="section-header">
-                        <small>{{ $i18n.t('pages.contact.powerToThePeople') }}</small>
-                        <h2>{{ $i18n.t('pages.contact.powerToThePeopleMeetTheCommunity') }}</h2>
+                        <small>{{ $i18n.t('pages.contact.people') }}</small>
+                        <h2>{{ $i18n.t('pages.contact.peopleMeetTheCommunity') }}</h2>
                         <hr>
-                        <p class="lead">{{ $i18n.t('pages.contact.aFewGoodMen') }}</p>
+                        <p class="lead">{{ $i18n.t('pages.contact.team') }}</p>
                     </header>
 
 
@@ -19,11 +19,11 @@
 
                         <div class="offset-md-4 col-md-4 team-2">
                             <a href="#">
-                                <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" :alt="$i18n.t('pages.contact.aFewGoodMenAlexandruIonutBudisteanu')">
+                                <img class="team-pic" src="/public/assets/images/team/Alexandru-Ionut-Budisteanu.jpg" :alt="$i18n.t('pages.contact.teamAlexandruIonutBudisteanu')">
                             </a>
-                            <h5>{{ $i18n.t('pages.contact.aFewGoodMenAbi') }}</h5>
-                            <small>{{ $i18n.t('pages.contact.aFewGoodMenFounder') }}</small>
-                            <p>{{ $i18n.t('pages.contact.aFewGoodMenFounderAchievements') }}</p>
+                            <h5>{{ $i18n.t('pages.contact.teamAlexandruIonutBudisteanu') }}</h5>
+                            <small>{{ $i18n.t('pages.contact.teamFounder') }}</small>
+                            <p>{{ $i18n.t('pages.contact.teamFounderAchievements') }}</p>
                             <br>
                             <div class="social social-brand">
                                 <a class="social-facebook" href="https://facebook.com/budisteanu.ionut"  target="_blank" ><i class="icon-facebook"></i></a>
@@ -41,10 +41,10 @@
           <!--  <section class="section bg-gray">
                 <div class="container">
                     <header class="section-header">
-                        <small>{{ $i18n.t('pages.contact.powerToThePeopleContactTheCommunity') }}</small>
-                        <h2 class="display-4">{{ $i18n.t('pages.contact.powerToThePeopleTalkToTheCommunity') }}</h2>
+                        <small>{{ $i18n.t('pages.contact.contactTheCommunity') }}</small>
+                        <h2 class="display-4">{{ $i18n.t('pages.contact.letsTalk') }}</h2>
                         <hr>
-                        <p class="lead">{{ $i18n.t('pages.contact.powerToThePeopleWaysToContact') }}</p>
+                        <p class="lead">{{ $i18n.t('pages.contact.waysToContact') }}</p>
                     </header>
 
                     <form class="form-row input-border" action="" method="POST" data-form="mailer">
@@ -66,7 +66,7 @@
                         </div>
 
                         <div class="col-8 text-center offset-2">
-                            <button class="btn btn-xl btn-block btn-primary" type="submit">{{ $i18n.t('pages.contact.hitSendHard') }}</button>
+                            <button class="btn btn-xl btn-block btn-primary" type="submit">{{ $i18n.t('pages.contact.send') }}</button>
                         </div>
                     </form>
 

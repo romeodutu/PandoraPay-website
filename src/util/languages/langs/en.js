@@ -1,14 +1,24 @@
+/**
+ * AUTHORS:
+ *
+ * cbejan
+ *
+ */
+
 import config from "build/config/config";
 
 export default {
 
     global:{
         webWallet: "WebWallet",
+        explorer: `Block Explorer`,
+        faq: `FAQ`,
     },
 
     pages:{
 
         homepage:{
+
             title: "World's First Anonymous Exchange",
             subTitle: "Anonymous payments made easy for average Joe",
             blocks: 'Blocks',
@@ -37,73 +47,80 @@ export default {
             youOwnYourOwnKey: `You own your own key and nobody can track you.`,
 
             anonymousPaymentsMadeEasy: `Anonymous payments made easy.`,
-            webDWallet:`Web Wallet`,
 
-            makeItPerfect:`Making it perfect for you !`,
-            worldFirstAnonymousStablecoin:`World's first anonymous and untraceable stablecoin`,
+            features:{
 
-            descriptionOfCharacterPrivate: `Private`,
-            descriptionOfCharacterPrivateZether: `Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
+                makeItPerfect:`Making it perfect for you !`,
+                worldFirstAnonymousExchange:`World's first anonymous and untraceable decentralized exchange`,
 
-            descriptionOfCharacterUntraceable: `Untraceable`,
-            descriptionOfCharacterObfuscated: `Sending and receiving addresses including transacted amounts are obfuscated by default.`,
+                private: `Private`,
+                privateZether: `Newly cryptographic mechanism Zether that uses Σ-bullets obfuscate the origins, amounts and destinations of all transactions.`,
 
-            descriptionOfCharacterFungible: `Fungible`,
-            descriptionOfCharacterNoBlacklist: `Units of ${config.app.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
+                untraceable: `Untraceable`,
+                obfuscated: `Sending and receiving addresses including transacted amounts are obfuscated by default.`,
 
-            descriptionOfCharacterAssetPlusCurrency: `Assets & Currencies`,
-            descriptionOfCharacterAssetPlusCurrencyAnchor: `Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
+                fungible: `Fungible`,
+                noBlacklist: `Units of ${config.app.name} can not be blacklisted by vendors or exchanges due to their association in previous transactions.`,
 
-            descriptionOfCharacterConfidentialBlindedEscrow: `Confidential Blinded Escrow`,
-            descriptionOfCharacterCompletelyBlindEscrow: `Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
+                assetPlusCurrency: `Assets & Currencies`,
+                assetPlusCurrencyAnchor: `Anonymous digital assets & currencies that anchor the value of other assets backed by the community.`,
 
-            descriptionOfCharacterReviewsForTraders: `Reviews for Traders`,
-            descriptionOfCharacterReviewsForTradersAnonymous: `To increase the trust between traders in an untrusted network, anonymous reviews can be written down.`,
+                confidentialBlindedEscrow: `Confidential Blinded Escrow`,
+                completelyBlindEscrow: `Escrows don't know the amount, the real sender and the real destination. Escrows are completely blinded.`,
 
-            descriptionOfCharacterEncryptedChat: `Encrypted Chat`,
-            descriptionOfCharacterEncryptedChatEndToEnd: `The chat in ${config.app.name}  between traders and blinded escrow are encrypted end to end.`,
+                reviewsForTraders: `Reviews for Traders`,
+                reviewsForTradersAnonymous: `To increase the trust between traders in an untrusted network, anonymous reviews can be written down.`,
 
-            descriptionOfCharacterNoDeposit: `No deposit`,
-            descriptionOfCharacterNoDepositNoCoins: `${config.app.name} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins`,
+                encryptedChat: `Encrypted Chat`,
+                encryptedChatEndToEnd: `The chat in ${config.app.name}  between traders and blinded escrow are encrypted end to end.`,
 
-            descriptionOfCharacterInstantAnonymity: `Instant anonymity & HD Wallets`,
-            descriptionOfCharacterAdvancedHdWallet: `It just takes seconds to decrypt and view your balances and transactions. More, it has an advanced HD Wallet implemented.`,
+                noDeposit: `No deposit`,
+                noDepositNoCoins: `${config.app.name} is the first decentralized p2p exchange that allows users to start trading without needing to deposit or owning coins. To buy coins or assets, you don't need to own coins`,
 
-            mainNetTimeline: `Timeline for PandoraPay Main Net`,
-            launchTimeline: `Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code has already been implemented`,
+                instantAnonymity: `Instant anonymity & HD Wallets`,
+                advancedHdWallet: `It just takes seconds to decrypt and view your balances and transactions. More, it has an advanced HD Wallet implemented.`,
 
-            featuresTimelineDataStructure: `Data structure`,
-            featuresTimelineNetworking: `Networking`,
-            featuresTimelineCryptoAndRingCT: `Crypto & RingCT - Ring Confidential Signatures`,
-            featuresTimelineBlockchainAndConsensus: `Blockchain & Consensus`,
-            featuresTimelineExchangeFiftyPerCent: `Exchange - 50%`,
-            featuresTimelineEncryptedMessages: `Encrypted Messages`,
-            featuresTimelineCompletlyBlindedEscrow: `Completly Blinded Escrow`,
-            featuresTimelineFinalTests: `Final Tests`,
+            },
+
+
+            finished:{
+
+                timeline: `Timeline for PandoraPay Main Net`,
+                launchTimeline: `Timeline for launching PandoraPay. We don't want to offer any specific date, but most of the code has already been implemented`,
+
+                dataStructure: `Data structure`,
+                networking: `Networking`,
+                cryptoAndRingCT: `Crypto & RingCT - Ring Confidential Signatures`,
+                blockchainAndConsensus: `Blockchain & Consensus`,
+                exchangeFiftyPerCent: `Exchange - 50%`,
+                encryptedMessages: `Encrypted Messages`,
+                completelyBlindedEscrow: `Completly Blinded Escrow`,
+                finalTests: `Final Tests`,
+
+            },
+
 
             gotAQuestion: `Got a question? We've got answers on `,
-            gotAQuestionFaq: "FAQ",
         },
 
         contact:{
-            powerToThePeople: `People`,
-            powerToThePeopleMeetTheCommunity: `Meet us`,
+            people: `People`,
+            peopleMeetTheCommunity: `Meet us`,
 
-            aFewGoodMen: `Meet our small team that make those great products`,
-            aFewGoodMenAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
-            aFewGoodMenAbi: `Alexandru Ionut Budisteanu`,
-            aFewGoodMenFounder: `Founder`,
-            aFewGoodMenFounderAchievements: `Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name.`,
+            team: `Meet our small team that make those great products`,
+            teamAlexandruIonutBudisteanu: `Alexandru Ionut Budisteanu`,
+            teamFounder: `Founder`,
+            teamFounderAchievements: `Alexandru is a Forbes Europe 30 under 30 nominee in industry category. In 2013, he was nominated by Time Magazine as one of the most influential teens of the world. MIT named an asteroid with his name.`,
 
-            powerToThePeopleContactTheCommunity: `Contact`,
-            powerToThePeopleTalkToTheCommunity: `Let's Talk`,
-            powerToThePeopleWaysToContact: `Here are the ways you can contact us with any questions you have`,
+            contactTheCommunity: `Contact`,
+            letsTalk: `Let's Talk`,
+            waysToContact: `Here are the ways you can contact us with any questions you have`,
 
             messageReceivedWaitNow: `We received your message and will contact you back soon.`,
             inputYourName: `Your name`,
             inputYourEmail: `Your email`,
             inputYourMessage: `Message`,
-            hitSendHard: `SEND`,
+            send: `SEND`,
         },
 
         faq:{
@@ -128,8 +145,8 @@ export default {
             questionAddressNeedToKnowOnly: `Does the Buyer, Seller, or the Escrow will know each other addresses ?`,
             answerAddressNeedToKnowOnly: `No! The Buyer will not know the Seller real address. The Seller will not know the Buyer real address. The Escrow will not know the Buyer or Seller real addresses or the amount transacted. The buyer and sellers will only know the Escrow Address.`,
 
-            questionPromiseFulfilled: `How does the Buyer know that the Seller has the promised funds?`,
-            answerPromiseFulfilled: `If they agreed on the price, the Buyer will automatically ask a proof from the Seller that he has enough funds to do the trade. The Seller will generate a proof showing that he has enough for the trade.`,
+            questionProofOwnerFunds: `How does the Buyer know that the Seller has the promised funds?`,
+            answerProofOwnerFunds: `If they agreed on the price, the Buyer will automatically ask a proof from the Seller that he has enough funds to do the trade. The Seller will generate a proof showing that he has enough for the trade.`,
 
             questionCanWeTradeAnything: `What assets/tokens can be traded ?`,
             answerCanWeTradeAnything: `Any real-world asset can be "tokenized" into a digital form and traded on ${config.app.name}. Anybody can issue assets/tokens on ${config.app.name}. The assets/tokens can be pegged by a real-world asset, can be collateralized by a different asset/crypto or even non-collateralized.`,
@@ -146,9 +163,7 @@ export default {
             logoAlt: `${config.app.name}`,
 
             home: `Home`,
-            blockExplorer: `Block Explorer`,
             contact: `Contact`,
-            faq: `FAQ`,
         },
 
         footer:{
@@ -170,7 +185,6 @@ export default {
             helpCenter: "Help Center",
             guides: "Guides",
             api: "API",
-            faq: "FAQ",
 
             footer: `© 2020 ${config.app.name}. It is an open source project created by a community.`
 
