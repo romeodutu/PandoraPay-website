@@ -143,7 +143,7 @@ export default {
             answerCanWeTradeAnything: `Orice activ din lumea reală poate fi „tokenizat” într-o formă digitală și tranzacționat pe ${config.app.name}. Oricine poate emite active/tokenuri pe ${config.app.name}. Activele/tokenurile pot fi legate de un activ din lumea reală, pot fi colateralizate de un alt activ/cripto sau chiar necoletarizat.`,
 
             questionRingSignatureUntraceable: `Cum ${config.app.name} activele/tokenurile nu pot fi urmărite?`,
-            answerRingSignatureUntraceable: `${config.app.name} folosește sConfidential Ring Signatures (ca Monero) ceea ce înseamnă că sumele sunt ascunse (confidențiale) și o tranzacție folosește desene aleatorii din rețea (o tranzacție de apel).`,
+            answerRingSignatureUntraceable: `${config.app.name} folosește Confidential Ring Signatures (ca Monero) ceea ce înseamnă că sumele sunt ascunse (confidențiale) și o tranzacție folosește desene aleatorii din rețea (o tranzacție de apel).`,
         },
 
     },
